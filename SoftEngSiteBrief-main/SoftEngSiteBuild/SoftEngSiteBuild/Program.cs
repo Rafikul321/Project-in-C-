@@ -16,8 +16,8 @@ namespace SoftEngSiteBuild
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-       //     Application.Run(new Form1());
-            Application.Run(new DataB());
+            Application.Run(new Form1());
+            // Application.Run(new DataB());
         }
     }
 }

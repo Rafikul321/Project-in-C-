@@ -56,3 +56,29 @@ D:\Documents\uni\Year 2 (TRI1)\Software engineering\Share github\SoftEngSiteBrie
 D:\Documents\uni\Year 2 (TRI1)\Software engineering\Share github\SoftEngSiteBrief-main (1)\SoftEngSiteBrief-main\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
 D:\Documents\uni\Year 2 (TRI1)\Software engineering\Share github\SoftEngSiteBrief-main (1)\SoftEngSiteBrief-main\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
 D:\Documents\uni\Year 2 (TRI1)\Software engineering\Share github\SoftEngSiteBrief-main (1)\SoftEngSiteBrief-main\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngDB.mdf
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngDB_log.ldf
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe.config
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.pdb
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csprojAssemblyReference.cache
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.DataB.resources
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Form1.resources
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Properties.Resources.resources
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.GenerateResource.cache
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
+C:\Users\el481\Source\Repos\SoftEngSiteBrief3\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngDB.mdf
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngDB_log.ldf
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe.config
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.pdb
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csprojAssemblyReference.cache
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.DataB.resources
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Form1.resources
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Properties.Resources.resources
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.GenerateResource.cache
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
+H:\My Documents\Development\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb
