@@ -1,0 +1,30 @@
+H:\My Documents\Development\Vis 1\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe.config
+H:\My Documents\Development\Vis 1\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe
+H:\My Documents\Development\Vis 1\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.pdb
+H:\My Documents\Development\Vis 1\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csprojAssemblyReference.cache
+H:\My Documents\Development\Vis 1\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Form1.resources
+H:\My Documents\Development\Vis 1\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Properties.Resources.resources
+H:\My Documents\Development\Vis 1\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.GenerateResource.cache
+H:\My Documents\Development\Vis 1\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
+H:\My Documents\Development\Vis 1\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
+H:\My Documents\Development\Vis 1\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb
+I:\School\SoftEng\SoftEngSiteBrief\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe.config
+I:\School\SoftEng\SoftEngSiteBrief\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe
+I:\School\SoftEng\SoftEngSiteBrief\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.pdb
+I:\School\SoftEng\SoftEngSiteBrief\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.AssemblyReference.cache
+I:\School\SoftEng\SoftEngSiteBrief\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Form1.resources
+I:\School\SoftEng\SoftEngSiteBrief\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Properties.Resources.resources
+I:\School\SoftEng\SoftEngSiteBrief\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.GenerateResource.cache
+I:\School\SoftEng\SoftEngSiteBrief\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
+I:\School\SoftEng\SoftEngSiteBrief\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
+I:\School\SoftEng\SoftEngSiteBrief\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb
+H:\My Documents\Development\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe.config
+H:\My Documents\Development\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe
+H:\My Documents\Development\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.pdb
+H:\My Documents\Development\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csprojAssemblyReference.cache
+H:\My Documents\Development\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Form1.resources
+H:\My Documents\Development\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Properties.Resources.resources
+H:\My Documents\Development\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.GenerateResource.cache
+H:\My Documents\Development\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
+H:\My Documents\Development\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
+H:\My Documents\Development\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb
