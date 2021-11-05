@@ -1,0 +1,16 @@
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\bin\Debug\netcoreapp3.1\GUI2.exe
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\bin\Debug\netcoreapp3.1\GUI2.deps.json
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\bin\Debug\netcoreapp3.1\GUI2.runtimeconfig.json
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\bin\Debug\netcoreapp3.1\GUI2.runtimeconfig.dev.json
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\bin\Debug\netcoreapp3.1\GUI2.dll
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\bin\Debug\netcoreapp3.1\GUI2.pdb
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\obj\Debug\netcoreapp3.1\GUI2.csproj.AssemblyReference.cache
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\obj\Debug\netcoreapp3.1\GUI2.Form1.resources
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\obj\Debug\netcoreapp3.1\GUI2.csproj.GenerateResource.cache
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\obj\Debug\netcoreapp3.1\GUI2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\obj\Debug\netcoreapp3.1\GUI2.AssemblyInfoInputs.cache
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\obj\Debug\netcoreapp3.1\GUI2.AssemblyInfo.cs
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\obj\Debug\netcoreapp3.1\GUI2.csproj.CoreCompileInputs.cache
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\obj\Debug\netcoreapp3.1\GUI2.dll
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\obj\Debug\netcoreapp3.1\GUI2.pdb
+C:\Users\nashl\OneDrive\Desktop\Development\GUI2\GUI2\obj\Debug\netcoreapp3.1\GUI2.genruntimeconfig.cache
