@@ -47,7 +47,7 @@ namespace SoftEngSiteBuild
 
         private void Button2_Click(object sender, EventArgs e)
         {
-           
+            
             (new DataB()).ShowDialog();
         }
 

@@ -56,5 +56,36 @@ namespace SoftEngSiteBuild
             return dataset;
 
         }
+
+        // this method allows the parameters (name and age) to be saved in the database 
+
+        public void saveToDB(string sqlquery, string name, int age)
+        {
+            using (SqlConnection connToDB = new SqlConnection(dataBaseConnectionString))
+            {
+
+                //opens the connection
+
+                connToDB.Open();
+
+                //created object 'SqlCommand' this was created to send querires through connection to database
+                SqlCommand sqlCommand = new SqlCommand(sqlquery, connToDB);
+
+                // gives properties to SQLcommand
+                sqlCommand.CommandType = CommandType.Text;
+
+                //'Name' and "age" was used as that is the expected paramter that was created from 'DataB.cs"
+                sqlCommand.Parameters.Add(new SqlParameter("Name", name));
+                sqlCommand.Parameters.Add(new SqlParameter("Age", age));
+
+
+                //execute command 
+                sqlCommand.ExecuteNonQuery();
+
+                
+
+
+            }
+        }
     }
 }
