@@ -110,3 +110,17 @@ C:\Users\rafik\Source\Repos\Nebulastar\SoftEngSiteBrief\SoftEngSiteBrief-main\So
 C:\Users\rafik\Source\Repos\Nebulastar\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
 C:\Users\rafik\Source\Repos\Nebulastar\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
 C:\Users\rafik\Source\Repos\Nebulastar\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngDB.mdf
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngDB_log.ldf
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe.config
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.pdb
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.AssemblyReference.cache
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.DataB.resources
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Form1.resources
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.LoginForm.resources
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Properties.Resources.resources
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.GenerateResource.cache
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
+C:\Users\rafik\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb

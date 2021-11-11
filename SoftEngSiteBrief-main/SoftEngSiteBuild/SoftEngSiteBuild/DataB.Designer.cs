@@ -90,9 +90,9 @@ namespace SoftEngSiteBuild
             this.LabelAge.AutoSize = true;
             this.LabelAge.Location = new System.Drawing.Point(822, 159);
             this.LabelAge.Name = "LabelAge";
-            this.LabelAge.Size = new System.Drawing.Size(38, 20);
+            this.LabelAge.Size = new System.Drawing.Size(44, 20);
             this.LabelAge.TabIndex = 5;
-            this.LabelAge.Text = "Age";
+            this.LabelAge.Text = "DOB";
             this.LabelAge.Click += new System.EventHandler(this.label1_Click);
             // 
             // btInsert
