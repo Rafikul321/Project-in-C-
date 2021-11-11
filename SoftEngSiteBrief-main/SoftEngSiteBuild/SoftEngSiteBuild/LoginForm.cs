@@ -53,12 +53,12 @@ namespace SoftEngSiteBuild
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (username.Text == "User" & password.Text == "password") // this if statemnts checks whether the username and password the user has entered matches "User" and "password" '&' symbol is used as AND logic operator.
+            if (username.Text == "User" & password.Text == "password") // this if statements checks whether the username and password the user has entered matches "User" and "password" '&' symbol is used as AND logic operator.
 
 
             {
                 // if user has entered the correct password a messagebox will appear firstly stating that they have entered correct password
-                MessageBox.Show("You have entred the correct details", " Welcome!");
+                MessageBox.Show("You have entered the correct details", " Welcome!");
 
                 // once user has entered correct password they will be able to access the system, this takes them to 'Form1'
                 this.Hide(); // this improves user experience as the log in form will be hiden once they access main system
