@@ -62,6 +62,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AuditFormData.cs" />
+    <Compile Include="DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataB.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DataB.resx">
       <DependentUpon>DataB.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +109,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -115,6 +125,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Screenshot 2021-11-15 233350.png" />
+    <None Include="Resources\Screenshot 2021-11-15 235435.png" />
+    <None Include="Resources\Screenshot 2021-11-16 000930.png" />
+    <None Include="Resources\Screenshot 2021-11-16 001423.png" />
+    <None Include="Resources\Screenshot 2021-11-16 001535.png" />
+    <None Include="Resources\free-settings-icon-778-thumb.png" />
+    <None Include="Resources\Screenshot 2021-11-16 013911.png" />
+    <None Include="Resources\Screenshot 2021-11-16 020502.png" />
+    <None Include="Resources\Screenshot 2021-11-16 020931.png" />
     <Content Include="SoftEngDB.mdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
