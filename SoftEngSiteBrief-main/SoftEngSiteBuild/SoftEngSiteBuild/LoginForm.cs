@@ -62,7 +62,7 @@ namespace SoftEngSiteBuild
 
                 // once user has entered correct password they will be able to access the system, this takes them to 'Form1'
                 this.Hide(); // this improves user experience as the log in form will be hiden once they access main system
-                new DashBoard().Show();
+                //new DashBoard().Show();
                  
 
             }
