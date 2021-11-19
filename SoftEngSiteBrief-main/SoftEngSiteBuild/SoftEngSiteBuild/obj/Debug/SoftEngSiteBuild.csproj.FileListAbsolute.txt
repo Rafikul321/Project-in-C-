@@ -154,3 +154,51 @@ C:\Users\ellis\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBu
 C:\Users\ellis\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
 C:\Users\ellis\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
 C:\Users\ellis\Source\Repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csprojAssemblyReference.cache
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.DashBoard.resources
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.DataB.resources
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Form1.resources
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.LoginForm.resources
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Properties.Resources.resources
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Register.resources
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.GenerateResource.cache
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngDB.mdf
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngDB_log.ldf
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe.config
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe
+H:\My Documents\Development\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.pdb
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngDB.mdf
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngDB_log.ldf
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe.config
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.pdb
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.DashBoard.resources
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.DataB.resources
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Form1.resources
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.LoginForm.resources
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Properties.Resources.resources
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Register.resources
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.GenerateResource.cache
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb
+D:\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.AssemblyReference.cache
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngDB.mdf
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngDB_log.ldf
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe.config
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.exe
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\SoftEngSiteBuild.pdb
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.AssemblyReference.cache
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.DashBoard.resources
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.DataB.resources
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Form1.resources
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.LoginForm.resources
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Properties.Resources.resources
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Register.resources
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.GenerateResource.cache
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
+C:\Users\rafik\Documents\uni\NEWCODE\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb

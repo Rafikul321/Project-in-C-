@@ -37,11 +37,11 @@ namespace SoftEngSiteBuild
         private void btInsert_Click(object sender, EventArgs e)
         {
             // here I am giving the textbox created a variable name so data can be manipulated
-            string name = TableName.Text;
-            int age = Convert.ToInt32(TableAge.Text);
+      //      string name = TableName.Text;
+      //      int age = Convert.ToInt32(TableAge.Text);
 
             //class 'Convert.ToInt32' converts the datatype'
-            dbConn.saveToDB("INSERT INTO Person (Name, Age) VALUES (@Name, @Age)", name, age); // sends value as parameters 
+       //     dbConn.saveToDB("INSERT INTO Person (Name, Age) VALUES (@Name, @Age)", name, age); // sends value as parameters 
 
         }
 

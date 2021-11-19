@@ -59,7 +59,7 @@ namespace SoftEngSiteBuild
 
         // this method allows the parameters (name and age) to be saved in the database 
 
-        public void saveToDB(string sqlquery, string name, int age)
+        public void saveToDB(string sqlquery, string name, int age, string username, string password)
         {
             using (SqlConnection connToDB = new SqlConnection(dataBaseConnectionString))
             {
@@ -77,12 +77,14 @@ namespace SoftEngSiteBuild
                 //'Name' and "age" was used as that is the expected paramter that was created from 'DataB.cs"
                 sqlCommand.Parameters.Add(new SqlParameter("Name", name));
                 sqlCommand.Parameters.Add(new SqlParameter("Age", age));
+                sqlCommand.Parameters.Add(new SqlParameter("Username", username));
+                sqlCommand.Parameters.Add(new SqlParameter("Password", password));
 
 
                 //execute command 
                 sqlCommand.ExecuteNonQuery();
 
-                
+
 
 
             }
