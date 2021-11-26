@@ -20,6 +20,8 @@ namespace SoftEngSiteBuild
 
         }
 
+        DataBaseConnection dbConn = DataBaseConnection.GetInstanceofDataBaseConnection();
+
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -53,30 +55,31 @@ namespace SoftEngSiteBuild
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (username.Text == "User" & password.Text == "password") // this if statements checks whether the username and password the user has entered matches "User" and "password" '&' symbol is used as AND logic operator.
+            string Username = username.Text;
+            string Password = password.Text;
+            string sqlQuery = "Select * FROM Person WHERE Username = '" + Username + "' AND Password = '" + Password + "'";
 
 
+            DataSet datasetPerson = dbConn.getDataSet(sqlQuery);
+
+
+
+
+            if (datasetPerson.Tables[0].Rows.Count == 1)
             {
-                // if user has entered the correct password a messagebox will appear firstly stating that they have entered correct password
-                MessageBox.Show("You have entered the correct details", " Welcome!");
-
-                // once user has entered correct password they will be able to access the system, this takes them to 'Form1'
-                this.Hide(); // this improves user experience as the log in form will be hiden once they access main system
-                new DashBoard().Show();
-                 
+                MessageBox.Show("Your have succesfully logged in!");
+                new Form1().Show();
 
             }
-
             else
-                // this displays error message and notifies user that they have entered wrong log in details
             {
-                MessageBox.Show("Incorrect details, please try again", " Warning!");
-                
-                
+
+                MessageBox.Show("Incorrect log in details");
+
             }
 
 
-           
+
         }
 
         private void button3_Click_1(object sender, EventArgs e)
