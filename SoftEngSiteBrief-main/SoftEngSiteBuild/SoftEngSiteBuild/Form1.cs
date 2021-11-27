@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -289,6 +291,20 @@ namespace SoftEngSiteBuild
         private void tbAwarenessAction_TextChanged(object sender, EventArgs e)
         {
             auditFormData.AwarenessAction = tbAwarenessAction.Text;
+        }
+
+        private void BnSave_Click(object sender, EventArgs e)
+        {
+            System.Console.WriteLine(auditFormData.WorkAtHeightIntervention);
+
+            AuditFormData afd = new AuditFormData();
+            Type afdType = afd.GetType();
+            PropertyInfo[] pInfo = afdType.GetProperties();
+            foreach (PropertyInfo pi in pInfo)
+            {
+                Console.WriteLine(pi.GetValue(auditFormData));
+                File.AppendAllText("Save.txt", pi.GetValue(auditFormData) + Environment.NewLine);
+            }
         }
     }
 }

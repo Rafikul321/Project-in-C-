@@ -238,3 +238,6 @@ C:\Users\rafik\Documents\uni\Year 2 (TRI1)\Software engineering\Share github\Sof
 C:\Users\rafik\Documents\uni\Year 2 (TRI1)\Software engineering\Share github\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
 C:\Users\rafik\Documents\uni\Year 2 (TRI1)\Software engineering\Share github\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
 C:\Users\rafik\Documents\uni\Year 2 (TRI1)\Software engineering\Share github\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb
+C:\Users\ellis\source\repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Biodata.resources
+C:\Users\ellis\source\repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SOFTWARE.InspectionForm.resources
+C:\Users\ellis\source\repos\SoftEngSiteBrief\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.Register.resources

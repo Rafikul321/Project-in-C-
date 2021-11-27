@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,13 @@ namespace SoftEngSiteBuild
 {
     class AuditFormData
     {
+        public IEnumerator GetEnumerator()
+        {
+            return (IEnumerator)this;
+        }
+
+
+
         string workAtHeightIntervention;
         string workAtHeightComment;
         string workatHeightCompleted;
