@@ -54,5 +54,17 @@ namespace SoftEngSiteBuild
         {
            
         }
+      
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtLoadData_Click(object sender, EventArgs e)
+        {
+            DataSet datasetSiteInspection = dbConn.getDataSet("Select * FROM SiteInspection");
+            dgv1.DataSource =datasetSiteInspection.Tables[0];
+        }
     }
 }
