@@ -68,7 +68,7 @@ namespace SoftEngSiteBuild
             if (datasetPerson.Tables[0].Rows.Count == 1)
             {
                 MessageBox.Show("Your have succesfully logged in!");
-                new Form1().Show();
+                new SiteInspection().Show();
 
             }
             else
