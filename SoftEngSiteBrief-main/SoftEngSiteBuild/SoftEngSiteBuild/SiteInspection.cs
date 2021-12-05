@@ -63,7 +63,9 @@ namespace SoftEngSiteBuild
 
         private void BtLoadData_Click(object sender, EventArgs e)
         {
+            // gets dataset from 'siteinspection' and uses select query to show all data inside the table
             DataSet datasetSiteInspection = dbConn.getDataSet("Select * FROM SiteInspection");
+            // once data is recieved this allows data to be displayed to the datagrid
             dgv1.DataSource =datasetSiteInspection.Tables[0];
         }
     }

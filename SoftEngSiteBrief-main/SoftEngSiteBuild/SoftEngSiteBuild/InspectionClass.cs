@@ -58,7 +58,7 @@ namespace SoftEngSiteBuild
 
         }
 
-        // this method allows the parameters (name and age) to be saved in the database 
+        
         public void savetoSiteInspection(string sqlQuery, string site, string workarea, string Supervisor, string CompletedBy, string JobDescription, string Inspector, string Date, string Type)
         {
             using (SqlConnection connToSiteInspection = new SqlConnection(dbconnConnectionString))
@@ -74,7 +74,7 @@ namespace SoftEngSiteBuild
                 // gives properties to SQLcommand
                 sqlCommand.CommandType = CommandType.Text;
 
-                //'Name' and "age" was used as that is the expected paramter that was created from 'DataB.cs"
+                
                 sqlCommand.Parameters.Add(new SqlParameter("Site", site));
                 sqlCommand.Parameters.Add(new SqlParameter("WorkArea", workarea));
                 sqlCommand.Parameters.Add(new SqlParameter("Supervisor", Supervisor));

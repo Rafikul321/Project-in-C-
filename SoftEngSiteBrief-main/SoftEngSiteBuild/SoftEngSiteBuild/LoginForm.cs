@@ -50,11 +50,14 @@ namespace SoftEngSiteBuild
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
             new Register().Show();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+
             string Username = username.Text;
             string Password = password.Text;
             string sqlQuery = "Select * FROM Person WHERE Username = '" + Username + "' AND Password = '" + Password + "'";
@@ -74,7 +77,7 @@ namespace SoftEngSiteBuild
             else
             {
 
-                MessageBox.Show("Incorrect log in details");
+                MessageBox.Show("Incorrect log in details, please try again!");
 
             }
 
@@ -85,6 +88,28 @@ namespace SoftEngSiteBuild
         private void button3_Click_1(object sender, EventArgs e)
         {
             this.Close(); // this allows user to close the log in page 
+        }
+
+        private void ClearButton_Click(object sender, EventArgs e)
+        {
+            username.Text = "";
+            password.Text = "";
+        }
+
+        private void showPassword_CheckedChanged(object sender, EventArgs e)
+        {
+            if (showPassword.Checked)
+            {
+                password.PasswordChar = '\0';
+                
+                // if user clicks the check box it will show what they have entered
+            }
+            else
+            {
+                password.PasswordChar = '*';
+            
+                //  if they uncheck it will be covered by '*' so password cannot be seen 
+            }
         }
     }
 }

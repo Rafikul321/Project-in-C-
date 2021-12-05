@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace SoftEngSiteBuild
 {
+    //this class was taken from canvas lecture videos and was modifed to suit our project
     class DataBaseConnection
     {
         //attributes 
@@ -35,7 +36,7 @@ namespace SoftEngSiteBuild
 
 
         public DataSet getDataSet(string sqlQuery)
-
+            //this methods allow me to check whether the login details the user has entered matches what is inside the database
         {
             // create the dataset object
             DataSet dataset = new DataSet();
@@ -57,9 +58,9 @@ namespace SoftEngSiteBuild
 
         }
 
-        // this method allows the parameters (name and age) to be saved in the database 
+        // this method allows the parameters (name and dob) to be saved in the database 
 
-        public void saveToDB(string sqlquery, string name, int age, string username, string password)
+        public void saveToDB(string sqlquery, string name, int dob, string username, string password)
         {
             using (SqlConnection connToDB = new SqlConnection(dataBaseConnectionString))
             {
@@ -74,9 +75,9 @@ namespace SoftEngSiteBuild
                 // gives properties to SQLcommand
                 sqlCommand.CommandType = CommandType.Text;
 
-                //'Name' and "age" was used as that is the expected paramter that was created from 'DataB.cs"
+                //'Name' and "dob" was used as that is the expected paramter that was created from 'DataB.cs"
                 sqlCommand.Parameters.Add(new SqlParameter("Name", name));
-                sqlCommand.Parameters.Add(new SqlParameter("Age", age));
+                sqlCommand.Parameters.Add(new SqlParameter("DOB", dob));
                 sqlCommand.Parameters.Add(new SqlParameter("Username", username));
                 sqlCommand.Parameters.Add(new SqlParameter("Password", password));
 

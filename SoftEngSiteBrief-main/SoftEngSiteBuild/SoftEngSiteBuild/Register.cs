@@ -36,10 +36,7 @@ namespace SoftEngSiteBuild
 
         }
 
-        private void TextBox2_TextChanged(object sender, EventArgs e)
-        {
 
-        }
 
         private void TableAge_TextChanged(object sender, EventArgs e)
         {
@@ -48,23 +45,24 @@ namespace SoftEngSiteBuild
 
         private void RegisterUser_Click(object sender, EventArgs e)
         {
-            if (Username.Text == "" || Password.Text == "" || confirmPassword.Text == "" || TableName.Text == "" || TableAge.Text == "") // '||' sign is the logic operator for OR,
+            if (Username.Text == "" || Password.Text == "" || confirmPassword.Text == "" || TableName.Text == "" || TableDOB.Text == "") // '||' sign is the logic operator for OR...
+                                                                                                                                         //  ensures that user does not leave required fields empty
                                                                                                                                         
             {
                 MessageBox.Show("These fields CAN NOT be empty!, Please Try Again");  // this means if any of these are empty a message box will prompt user to enter something
             }
-            else if (Password.Text == confirmPassword.Text) // validation to ensure both passwords are the same 
+            else if (Password.Text == confirmPassword.Text) // validation to ensure both 'password' and 'confirmPassword' are the same text
             {
                 // here I am giving the textbox created a variable name so data can be manipulated
                 string username = Username.Text;
                 string password = Password.Text;
-                // here I am giving the textbox created a variable name so data can be manipulated
                 string name = TableName.Text;
-
-                int age = Convert.ToInt32(TableAge.Text);
-
                 //class 'Convert.ToInt32' converts the datatype'
-                dbConn.saveToDB("INSERT INTO Person (Name, Age, Username, Password) VALUES (@Name, @Age, @Username, @Password)", name, age, username, password); // sends value as parameters 
+                int dob = Convert.ToInt32(TableDOB.Text);
+
+
+                dbConn.saveToDB("INSERT INTO Person (Name, DOB, Username, Password) VALUES (@Name, @DOB, @Username, @Password)", name, dob, username, password); // sends value as parameters to method
+                                                                                                                                                                 // 'saveToDB' in 'dbConn' class
 
                 MessageBox.Show("Your Account has sucessfully been created, Thank You!");
 
@@ -87,7 +85,7 @@ namespace SoftEngSiteBuild
         }
 
 
-  //  }
+
 
         private void GobackToLogInPage_Click(object sender, EventArgs e)
         {
@@ -130,7 +128,7 @@ namespace SoftEngSiteBuild
         private void ClearButton_Click(object sender, EventArgs e)
         {
             TableName.Text = "";
-            TableAge.Text = "";
+            TableDOB.Text = "";
             Username.Text = "";
             Password.Text = "";
             confirmPassword.Text = "";
