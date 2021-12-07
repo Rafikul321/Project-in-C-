@@ -47,7 +47,7 @@ namespace SoftEngSiteBuild
             this.button2.Location = new System.Drawing.Point(297, 226);
             this.button2.Margin = new System.Windows.Forms.Padding(1);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(207, 41);
+            this.button2.Size = new System.Drawing.Size(228, 52);
             this.button2.TabIndex = 1;
             this.button2.Text = "Don\'t have an account? Click here to create one!";
             this.button2.UseVisualStyleBackColor = true;
@@ -58,10 +58,10 @@ namespace SoftEngSiteBuild
             this.textBox1.BackColor = System.Drawing.SystemColors.Menu;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.textBox1.Location = new System.Drawing.Point(160, 77);
+            this.textBox1.Location = new System.Drawing.Point(88, 77);
             this.textBox1.Margin = new System.Windows.Forms.Padding(1);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 19);
+            this.textBox1.Size = new System.Drawing.Size(197, 28);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Enter UserName ";
             // 
@@ -70,10 +70,10 @@ namespace SoftEngSiteBuild
             this.textBox2.BackColor = System.Drawing.SystemColors.Menu;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.textBox2.Location = new System.Drawing.Point(160, 110);
+            this.textBox2.Location = new System.Drawing.Point(88, 110);
             this.textBox2.Margin = new System.Windows.Forms.Padding(1);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(125, 22);
+            this.textBox2.Size = new System.Drawing.Size(197, 32);
             this.textBox2.TabIndex = 3;
             this.textBox2.Text = "Enter Password ";
             // 
@@ -96,10 +96,10 @@ namespace SoftEngSiteBuild
             // btClose
             // 
             this.btClose.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btClose.Location = new System.Drawing.Point(0, 292);
+            this.btClose.Location = new System.Drawing.Point(0, 310);
             this.btClose.Margin = new System.Windows.Forms.Padding(1);
             this.btClose.Name = "btClose";
-            this.btClose.Size = new System.Drawing.Size(857, 19);
+            this.btClose.Size = new System.Drawing.Size(881, 19);
             this.btClose.TabIndex = 7;
             this.btClose.Text = "Close";
             this.btClose.UseVisualStyleBackColor = true;
@@ -145,7 +145,7 @@ namespace SoftEngSiteBuild
             this.showPassword.Location = new System.Drawing.Point(523, 115);
             this.showPassword.Margin = new System.Windows.Forms.Padding(2);
             this.showPassword.Name = "showPassword";
-            this.showPassword.Size = new System.Drawing.Size(108, 17);
+            this.showPassword.Size = new System.Drawing.Size(115, 21);
             this.showPassword.TabIndex = 22;
             this.showPassword.Text = "Show Password?";
             this.showPassword.UseVisualStyleBackColor = true;
@@ -155,7 +155,7 @@ namespace SoftEngSiteBuild
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(857, 311);
+            this.ClientSize = new System.Drawing.Size(881, 329);
             this.Controls.Add(this.showPassword);
             this.Controls.Add(this.ClearButton);
             this.Controls.Add(this.button3);

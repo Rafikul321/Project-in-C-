@@ -38,7 +38,7 @@ namespace SoftEngSiteBuild
             // 
             this.dgvPerson.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPerson.Location = new System.Drawing.Point(8, 8);
-            this.dgvPerson.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvPerson.Margin = new System.Windows.Forms.Padding(2);
             this.dgvPerson.Name = "dgvPerson";
             this.dgvPerson.RowHeadersWidth = 62;
             this.dgvPerson.RowTemplate.Height = 28;
@@ -48,8 +48,8 @@ namespace SoftEngSiteBuild
             // 
             // btLoadData
             // 
-            this.btLoadData.Location = new System.Drawing.Point(195, 228);
-            this.btLoadData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btLoadData.Location = new System.Drawing.Point(199, 236);
+            this.btLoadData.Margin = new System.Windows.Forms.Padding(2);
             this.btLoadData.Name = "btLoadData";
             this.btLoadData.Size = new System.Drawing.Size(103, 44);
             this.btLoadData.TabIndex = 1;
@@ -64,7 +64,7 @@ namespace SoftEngSiteBuild
             this.ClientSize = new System.Drawing.Size(847, 291);
             this.Controls.Add(this.btLoadData);
             this.Controls.Add(this.dgvPerson);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DataB";
             this.Text = "DataB";
             ((System.ComponentModel.ISupportInitialize)(this.dgvPerson)).EndInit();

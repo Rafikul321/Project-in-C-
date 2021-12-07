@@ -21,6 +21,7 @@ namespace SoftEngSiteBuild
         }
         DataBaseConnection dbConn = DataBaseConnection.GetInstanceofDataBaseConnection();
 
+
         private void Label2_Click(object sender, EventArgs e)
         {
 
@@ -57,14 +58,41 @@ namespace SoftEngSiteBuild
                 string username = Username.Text;
                 string password = Password.Text;
                 string name = TableName.Text;
-                //class 'Convert.ToInt32' converts the datatype'
-                int dob = Convert.ToInt32(TableDOB.Text);
+
+                
 
 
-                dbConn.saveToDB("INSERT INTO Person (Name, DOB, Username, Password) VALUES (@Name, @DOB, @Username, @Password)", name, dob, username, password); // sends value as parameters to method
-                                                                                                                                                                 // 'saveToDB' in 'dbConn' class
+   /*             for (int item=0; item< dgvPerson.Rows.Count;item ++)
+                {
+                    if(Username.Text == dvgPerson.Rows[item].Cells[0].Value.ToString())
+                    {
+                        MessageBox.Show("username already exist");
+                        return;
 
-                MessageBox.Show("Your Account has sucessfully been created, Thank You!");
+        
+                }
+                
+
+   */
+                try
+                {
+                    //class 'Convert.ToInt32' converts the datatype'
+                    int dob = Convert.ToInt32(TableDOB.Text);
+                    
+
+                    dbConn.saveToDB("INSERT INTO Person (Name, DOB, Username, Password) VALUES (@Name, @DOB, @Username, @Password)", name, dob, username, password); // sends value as parameters to method
+                                                                                                                                                                     // 'saveToDB' in 'dbConn' class
+
+                    MessageBox.Show("Your Account has sucessfully been created, Thank You!");
+                }
+                catch
+                {
+                    MessageBox.Show("Please only enter numbers in 'DOB'");
+                }
+
+
+
+                
 
             }
             else

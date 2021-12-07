@@ -66,8 +66,8 @@
             // 
             // TableName
             // 
-            this.TableName.Location = new System.Drawing.Point(299, 106);
-            this.TableName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TableName.Location = new System.Drawing.Point(299, 107);
+            this.TableName.Margin = new System.Windows.Forms.Padding(2);
             this.TableName.Name = "TableName";
             this.TableName.Size = new System.Drawing.Size(147, 20);
             this.TableName.TabIndex = 6;
@@ -110,7 +110,7 @@
             // TableDOB
             // 
             this.TableDOB.Location = new System.Drawing.Point(299, 137);
-            this.TableDOB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TableDOB.Margin = new System.Windows.Forms.Padding(2);
             this.TableDOB.Name = "TableDOB";
             this.TableDOB.Size = new System.Drawing.Size(147, 20);
             this.TableDOB.TabIndex = 14;
@@ -157,9 +157,9 @@
             // 
             this.showPassword.AutoSize = true;
             this.showPassword.Location = new System.Drawing.Point(475, 212);
-            this.showPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.showPassword.Margin = new System.Windows.Forms.Padding(2);
             this.showPassword.Name = "showPassword";
-            this.showPassword.Size = new System.Drawing.Size(108, 17);
+            this.showPassword.Size = new System.Drawing.Size(115, 21);
             this.showPassword.TabIndex = 19;
             this.showPassword.Text = "Show Password?";
             this.showPassword.UseVisualStyleBackColor = true;
@@ -168,7 +168,7 @@
             // ClearButton
             // 
             this.ClearButton.Location = new System.Drawing.Point(343, 270);
-            this.ClearButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ClearButton.Margin = new System.Windows.Forms.Padding(2);
             this.ClearButton.Name = "ClearButton";
             this.ClearButton.Size = new System.Drawing.Size(59, 19);
             this.ClearButton.TabIndex = 20;
@@ -180,7 +180,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(833, 486);
             this.Controls.Add(this.ClearButton);
             this.Controls.Add(this.showPassword);
             this.Controls.Add(this.label3);
