@@ -1,7 +1,11 @@
-﻿using System;
+﻿using MigraDoc.DocumentObjectModel;
+using MigraDoc.Rendering;
+using PdfSharp.Pdf;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -14,7 +18,7 @@ namespace SoftEngSiteBuild
 {
     public partial class Form1 : Form
     {
-        private AuditFormData auditFormData;
+        public AuditFormData auditFormData;
         public Form1()
         {
             InitializeComponent();
@@ -295,8 +299,8 @@ namespace SoftEngSiteBuild
 
         private void BnSave_Click(object sender, EventArgs e)
         {
-            System.Console.WriteLine(auditFormData.WorkAtHeightIntervention);
-
+            //System.Console.WriteLine(auditFormData.WorkAtHeightIntervention);
+            //.txt document
             AuditFormData afd = new AuditFormData();
             Type afdType = afd.GetType();
             PropertyInfo[] pInfo = afdType.GetProperties();
@@ -305,6 +309,21 @@ namespace SoftEngSiteBuild
                 Console.WriteLine(pi.GetValue(auditFormData));
                 File.AppendAllText("Save.txt", pi.GetValue(auditFormData) + Environment.NewLine);
             }
+        }
+
+        private void Bn_SavePDF_Click(object sender, EventArgs e)
+        {
+            //PDF Document
+            Document document = PDFDocumentation.CreateDocument();
+            document.UseCmykColor = true;
+            const bool unicode = false;
+            const PdfFontEmbedding embedding = PdfFontEmbedding.Always;
+            PdfDocumentRenderer pdfRenderer = new PdfDocumentRenderer(unicode, embedding);
+            pdfRenderer.Document = document;
+            pdfRenderer.RenderDocument();
+            const string filename = "HelloWorld.pdf";
+            pdfRenderer.PdfDocument.Save(filename);
+            Process.Start(filename);
         }
     }
 }

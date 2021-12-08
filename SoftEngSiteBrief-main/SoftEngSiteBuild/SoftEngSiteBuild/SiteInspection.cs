@@ -58,7 +58,8 @@ namespace SoftEngSiteBuild
 
         private void Button2_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            new Form1().Show();
         }
 
         private void BtLoadData_Click(object sender, EventArgs e)

@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace SoftEngSiteBuild
 {
-    class AuditFormData
+    public partial class AuditFormData
     {
+
         public IEnumerator GetEnumerator()
         {
             return (IEnumerator)this;
@@ -16,54 +17,54 @@ namespace SoftEngSiteBuild
 
 
 
-        string workAtHeightIntervention;
-        string workAtHeightComment;
-        string workatHeightCompleted;
-        string workatHeightAction;
-        string liftingOperationsIntervention;
-        string liftingOperationsComment;
-        string liftingOperationsCompleted;
-        string liftingOperationsAction;
-        string certificationIntervention;
-        string certificationComment;
-        string certificationCompleted;
-        string certificationAction;
-        string confinedSpaceWorkIntervention;
-        string confinedSpaceWorkComment;
-        string confinedSpaceWorkCompleted;
-        string confinedSpaceWorkAction;
-        string electricalWorkIntervention;
-        string electricalWorkComment;
-        string electricalWorkCompleted;
-        string electricalWorkAction;
-        string siteSetupIntervention;
-        string siteSetupComment;
-        string siteSetupCompleted;
-        string siteSetupAction;
-        string paperworkIntervention;
-        string paperworkComment;
-        string paperworkCompleted;
-        string paperworkAction;
-        string certificationTrainingIntervention;
-        string certificationTrainingComment;
-        string certificationTrainingCompleted;
-        string certificationTrainingAction;
-        string hotWorkIntervention;
-        string hotWorkComment;
-        string hotWorkCompleted;
-        string hotWorkAction;
-        string isolationIntervention;
-        string isolationComment;
-        string isolationCompleted;
-        string isolationAction;
-        string fireExitIntervention;
-        string fireExitComment;
-        string fireExitCompleted;
-        string fireExitAction;
-        string awarenessIntervention;
-        string awarenessComment;
-        string awarenessCompleted;
-        string awarenessAction;
+        static string workAtHeightIntervention;
+        static string workAtHeightComment;
+        static string workatHeightCompleted;
+        static string workatHeightAction;
+        static string liftingOperationsIntervention;
+        static string liftingOperationsComment;
+        static string liftingOperationsCompleted;
+        static string liftingOperationsAction;
+        static string certificationIntervention;
+        static string certificationComment;
+        static string certificationCompleted;
+        static string certificationAction;
+        static string confinedSpaceWorkIntervention;
+        static string confinedSpaceWorkComment;
+        static string confinedSpaceWorkCompleted;
+        static string confinedSpaceWorkAction;
+        static string electricalWorkIntervention;
+        static string electricalWorkComment;
+        static string electricalWorkCompleted;
+        static string electricalWorkAction;
+        static string siteSetupIntervention;
+        static string siteSetupComment;
+        static string siteSetupCompleted;
+        static string siteSetupAction;
+        static string paperworkIntervention;
+        static string paperworkComment;
+        static string paperworkCompleted;
+        static string paperworkAction;
+        static string certificationTrainingIntervention;
+        static string certificationTrainingComment;
+        static string certificationTrainingCompleted;
+        static string certificationTrainingAction;
+        static string hotWorkIntervention;
+        static string hotWorkComment;
+        static string hotWorkCompleted;
+        static string hotWorkAction;
+        static string isolationIntervention;
+        static string isolationComment;
+        static string isolationCompleted;
+        static string isolationAction;
+        static string fireExitIntervention;
+        static string fireExitComment;
+        static string fireExitCompleted;
+        static string fireExitAction;
+        static string awarenessIntervention;
+        static string awarenessComment;
+        static string awarenessCompleted;
+        static string awarenessAction;
 
         public string WorkAtHeightIntervention { get => workAtHeightIntervention; set => workAtHeightIntervention = value; }
         public string WorkAtHeightComment { get => workAtHeightComment; set => workAtHeightComment = value; }

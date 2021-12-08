@@ -379,6 +379,7 @@
             this.toolStripSeparator108 = new System.Windows.Forms.ToolStripSeparator();
             this.button2 = new System.Windows.Forms.Button();
             this.BnSave = new System.Windows.Forms.Button();
+            this.Bn_SavePDF = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -2786,19 +2787,30 @@
             // 
             // BnSave
             // 
-            this.BnSave.Location = new System.Drawing.Point(468, 409);
+            this.BnSave.Location = new System.Drawing.Point(406, 411);
             this.BnSave.Name = "BnSave";
             this.BnSave.Size = new System.Drawing.Size(75, 23);
             this.BnSave.TabIndex = 6;
-            this.BnSave.Text = "Save";
+            this.BnSave.Text = "Save to Txt";
             this.BnSave.UseVisualStyleBackColor = true;
             this.BnSave.Click += new System.EventHandler(this.BnSave_Click);
+            // 
+            // Bn_SavePDF
+            // 
+            this.Bn_SavePDF.Location = new System.Drawing.Point(511, 411);
+            this.Bn_SavePDF.Name = "Bn_SavePDF";
+            this.Bn_SavePDF.Size = new System.Drawing.Size(80, 23);
+            this.Bn_SavePDF.TabIndex = 7;
+            this.Bn_SavePDF.Text = "Save to PDF";
+            this.Bn_SavePDF.UseVisualStyleBackColor = true;
+            this.Bn_SavePDF.Click += new System.EventHandler(this.Bn_SavePDF_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1028, 524);
+            this.Controls.Add(this.Bn_SavePDF);
             this.Controls.Add(this.BnSave);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -3167,6 +3179,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem78;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator48;
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox48;
+        private System.Windows.Forms.Button Bn_SavePDF;
     }
 }
 
