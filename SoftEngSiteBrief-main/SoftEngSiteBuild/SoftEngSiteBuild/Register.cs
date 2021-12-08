@@ -46,17 +46,20 @@ namespace SoftEngSiteBuild
 
         private void RegisterUser_Click(object sender, EventArgs e)
         {
-            if (Username.Text == "" || Password.Text == "" || confirmPassword.Text == "" || TableName.Text == "" || TableDOB.Text == "") // '||' sign is the logic operator for OR...
+            if (Username.Text == "" || Password.Text == "" || confirmPassword.Text == "" || TableName.Text == "" || TableDOB.Text == "" ) // '||' sign is the logic operator for OR...
                                                                                                                                          //  ensures that user does not leave required fields empty
+                                                                                                                                         // ensures name is less than 50 characters as database can hold max 50
                                                                                                                                         
             {
                 MessageBox.Show("These fields CAN NOT be empty!, Please Try Again");  // this means if any of these are empty a message box will prompt user to enter something
             }
-            else if (Password.Text == confirmPassword.Text) // validation to ensure both 'password' and 'confirmPassword' are the same text
+            else if (Password.Text == confirmPassword.Text && Password.Text.Length > 7 && Password.Text.Length < 51 && Username.Text.Length <50) // validation to ensure both 'password' and 'confirmPassword' are the same text
+                                                                                                                     // validaiton to ensure password is above 7 characters, so that it cannot be guessed easily
+                                                                                                                     // validation to ensure username and password is below 51 characters as database can only store a max of 50 characters
             {
                 // here I am giving the textbox created a variable name so data can be manipulated
-                string username = Username.Text;
-                string password = Password.Text;
+                string username = Username.Text; 
+                string password = Password.Text; 
                 string name = TableName.Text;
 
                 
@@ -97,12 +100,12 @@ namespace SoftEngSiteBuild
             }
             else
             {
-                MessageBox.Show("Passwords do NOT match!, Please Try Again");
+                MessageBox.Show("Username and Password do NOT meet requirements, Please Try Again");
 
                 Password.Text = "";
                 confirmPassword.Text = "";
                 // this empties the text 
-                Password.Focus();
+                Username.Focus(); // brings keyboard to Username so user can type instantly
 
 
 
@@ -161,6 +164,11 @@ namespace SoftEngSiteBuild
             Password.Text = "";
             confirmPassword.Text = "";
             // this clears the text 
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
 
         }
     }
