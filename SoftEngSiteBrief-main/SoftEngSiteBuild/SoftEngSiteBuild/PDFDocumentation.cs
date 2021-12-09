@@ -85,7 +85,8 @@ namespace SoftEngSiteBuild
                 }
                 catch(ArgumentNullException e)
                 {
-                    line.AddFormattedText("N/A or Left Blank", TextFormat.Bold);
+                    //Line used to test if data was broken
+                    //line.AddFormattedText("N/A or Left Blank", TextFormat.Bold);
                 }
             }
             return document;
