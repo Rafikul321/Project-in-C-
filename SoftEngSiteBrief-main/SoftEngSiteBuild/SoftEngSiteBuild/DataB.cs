@@ -31,7 +31,6 @@ namespace SoftEngSiteBuild
             DataSet datasetPerson = dbConn.getDataSet("Select * FROM Person");
             dgvPerson.DataSource = datasetPerson.Tables[0];
 
-
         }
 
         private void btInsert_Click(object sender, EventArgs e)
@@ -58,7 +57,10 @@ namespace SoftEngSiteBuild
         {
 
         }
-    
 
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

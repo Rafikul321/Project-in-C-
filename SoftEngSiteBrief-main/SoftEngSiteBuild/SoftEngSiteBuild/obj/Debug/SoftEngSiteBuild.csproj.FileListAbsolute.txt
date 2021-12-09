@@ -436,3 +436,4 @@ C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-m
 C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\de\MigraDoc.RtfRendering-gdi.resources.dll
 C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\de\PdfSharp-gdi.resources.dll
 C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\de\PdfSharp.Charting-gdi.resources.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.UserDetails.resources

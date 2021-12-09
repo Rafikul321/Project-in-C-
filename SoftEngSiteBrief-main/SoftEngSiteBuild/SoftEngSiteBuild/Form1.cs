@@ -53,8 +53,9 @@ namespace SoftEngSiteBuild
 
         private void Button2_Click(object sender, EventArgs e)
         {
+            new UserDetails().Show();
+            //    (new DataB()).ShowDialog();
 
-            (new DataB()).ShowDialog();
         }
 
         private void TbWorkAtHeightIntervention_TextChanged(object sender, EventArgs e)

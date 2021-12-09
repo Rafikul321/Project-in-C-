@@ -44,6 +44,7 @@ namespace SoftEngSiteBuild
 
         private void btClose_Click_1(object sender, EventArgs e)
         {
+            MessageBox.Show("Thank you,Good-bye! :)");
             this.Close();
 
         }
@@ -93,6 +94,7 @@ namespace SoftEngSiteBuild
 
         private void button3_Click_1(object sender, EventArgs e)
         {
+            MessageBox.Show("Good-bye!");
             this.Close(); // this allows user to close the log in page 
         }
 
