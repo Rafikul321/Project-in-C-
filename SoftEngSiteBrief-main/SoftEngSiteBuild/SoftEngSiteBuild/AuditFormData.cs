@@ -15,8 +15,6 @@ namespace SoftEngSiteBuild
             return (IEnumerator)this;
         }
 
-
-
         static string workAtHeightIntervention;
         static string workAtHeightComment;
         static string workatHeightCompleted;
@@ -65,6 +63,19 @@ namespace SoftEngSiteBuild
         static string awarenessComment;
         static string awarenessCompleted;
         static string awarenessAction;
+        static string wasteManagementIntervention;
+        static string wasteManagementComment;
+        static string wasteManagementCompleted;
+        static string wasteManagementAction;
+        static string productContaminationIntervention;
+        static string productContaminationComment;
+        static string productContaminationCompleted;
+        static string productContaminationAction;
+        static string cOSHHAsbestosIntervention;
+        static string cOSHHAsbestosComment;
+        static string cOSHHAsbestosCompleted;
+        static string cOSHHAsbestosAction;
+
 
         public string WorkAtHeightIntervention { get => workAtHeightIntervention; set => workAtHeightIntervention = value; }
         public string WorkAtHeightComment { get => workAtHeightComment; set => workAtHeightComment = value; }
@@ -114,5 +125,17 @@ namespace SoftEngSiteBuild
         public string AwarenessComment { get => awarenessComment; set => awarenessComment = value; }
         public string AwarenessCompleted { get => awarenessCompleted; set => awarenessCompleted = value; }
         public string AwarenessAction { get => awarenessAction; set => awarenessAction = value; }
+        public string WasteManagementIntervention { get => wasteManagementIntervention; set => wasteManagementIntervention = value; }
+        public string WasteManagementComment { get => wasteManagementComment; set => wasteManagementComment = value; }
+        public string WasteManagementCompleted { get => wasteManagementCompleted; set => wasteManagementCompleted = value; }
+        public string WasteManagementAction { get => wasteManagementAction; set => wasteManagementAction = value; }
+        public string ProductContaminationIntervention { get => productContaminationIntervention; set => productContaminationIntervention = value; }
+        public string ProductContaminationComment { get => productContaminationComment; set => productContaminationComment = value; }
+        public string ProductContaminationCompleted { get => productContaminationCompleted; set => productContaminationCompleted = value; }
+        public string ProductContaminationAction { get => productContaminationAction; set => productContaminationAction = value; }
+        public string COSHHAsbestosIntervention { get => cOSHHAsbestosIntervention; set => cOSHHAsbestosIntervention = value; }
+        public string COSHHAsbestosComment { get => cOSHHAsbestosComment; set => cOSHHAsbestosComment = value; }
+        public string COSHHAsbestosCompleted { get => cOSHHAsbestosCompleted; set => cOSHHAsbestosCompleted = value; }
+        public string COSHHAsbestosAction { get => cOSHHAsbestosAction; set => cOSHHAsbestosAction = value; }
     }
 }

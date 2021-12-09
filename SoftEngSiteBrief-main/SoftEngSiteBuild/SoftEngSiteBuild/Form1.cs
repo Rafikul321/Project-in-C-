@@ -197,7 +197,7 @@ namespace SoftEngSiteBuild
             auditFormData.PaperworkAction = tbPaperworkAction.Text;
         }
 
-        private void ToolStripTextBox13_TextChanged(object sender, EventArgs e)
+        private void tbCertificationTrainingIntervention_TextChanged(object sender, EventArgs e)
         {
             auditFormData.CertificationTrainingIntervention = tbCertificationTrainingIntervention.Text;
         }
@@ -324,6 +324,66 @@ namespace SoftEngSiteBuild
             const string filename = "HelloWorld.pdf";
             pdfRenderer.PdfDocument.Save(filename);
             Process.Start(filename);
+        }
+
+        private void tbWasteManagementIntervention_TextChanged(object sender, EventArgs e)
+        {
+            auditFormData.WasteManagementIntervention = tbWasteManagementIntervention.Text;
+        }
+
+        private void tbWasteManagementComment_TextChanged(object sender, EventArgs e)
+        {
+            auditFormData.WasteManagementComment = tbWasteManagementComment.Text;
+        }
+
+        private void tbWasteManagementCompleted_TextChanged(object sender, EventArgs e)
+        {
+            auditFormData.WasteManagementCompleted = tbWasteManagementCompleted.Text;
+        }
+
+        private void tbWasteManagementAction_TextChanged(object sender, EventArgs e)
+        {
+            auditFormData.WasteManagementAction = tbWasteManagementAction.Text;
+        }
+
+        private void tbProductContaminationIntervention_TextChanged(object sender, EventArgs e)
+        {
+            auditFormData.ProductContaminationIntervention = tbProductContaminationIntervention.Text;
+        }
+
+        private void tbProductContaminationComment_TextChanged(object sender, EventArgs e)
+        {
+            auditFormData.ProductContaminationComment = tbProductContaminationComment.Text;
+        }
+
+        private void tbProductContaminationCompleted_TextChanged(object sender, EventArgs e)
+        {
+            auditFormData.ProductContaminationCompleted = tbProductContaminationCompleted.Text;
+        }
+
+        private void tbProductContaminationAction_TextChanged(object sender, EventArgs e)
+        {
+            auditFormData.ProductContaminationAction = tbProductContaminationAction.Text;
+        }
+
+        private void tbCOSHHAsbestosIntervention_TextChanged(object sender, EventArgs e)
+        {
+            auditFormData.COSHHAsbestosIntervention = tbCOSHHAsbestosIntervention.Text;
+        }
+
+        private void tbCOSHHAsbestosComment_TextChanged(object sender, EventArgs e)
+        {
+            auditFormData.COSHHAsbestosComment = tbCOSHHAsbestosComment.Text;
+        }
+
+        private void tbCOSHHAsbestosCompleted_TextChanged(object sender, EventArgs e)
+        {
+            auditFormData.COSHHAsbestosCompleted = tbCOSHHAsbestosCompleted.Text;
+        }
+
+        private void tbCOSHHAsbestosAction_TextChanged(object sender, EventArgs e)
+        {
+            auditFormData.COSHHAsbestosAction = tbCOSHHAsbestosAction.Text;
         }
     }
 }

@@ -193,43 +193,42 @@
             this.toolStripMenuItem65 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator37 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItem63 = new System.Windows.Forms.ToolStripMenuItem();
-            this.yESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripTextBox37 = new System.Windows.Forms.ToolStripTextBox();
+            this.tbWasteManagementIntervention = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripMenuItem66 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator38 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox38 = new System.Windows.Forms.ToolStripTextBox();
+            this.tbWasteManagementComment = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripMenuItem67 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator39 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox39 = new System.Windows.Forms.ToolStripTextBox();
+            this.tbWasteManagementCompleted = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripMenuItem68 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator40 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox40 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripMenuItem70 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tbWasteManagementAction = new System.Windows.Forms.ToolStripTextBox();
+            this.tbProductContamination = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem69 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator41 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox41 = new System.Windows.Forms.ToolStripTextBox();
+            this.tbProductContaminationIntervention = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripMenuItem71 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator42 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox42 = new System.Windows.Forms.ToolStripTextBox();
+            this.tbProductContaminationComment = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripMenuItem72 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator43 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox43 = new System.Windows.Forms.ToolStripTextBox();
+            this.tbProductContaminationCompleted = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripMenuItem73 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator44 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox44 = new System.Windows.Forms.ToolStripTextBox();
+            this.tbProductContaminationAction = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripMenuItem75 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem74 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator45 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox45 = new System.Windows.Forms.ToolStripTextBox();
+            this.tbCOSHHAsbestosIntervention = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripMenuItem76 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator46 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox46 = new System.Windows.Forms.ToolStripTextBox();
+            this.tbCOSHHAsbestosComment = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripMenuItem77 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator47 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox47 = new System.Windows.Forms.ToolStripTextBox();
+            this.tbCOSHHAsbestosCompleted = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripMenuItem78 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator48 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox48 = new System.Windows.Forms.ToolStripTextBox();
+            this.tbCOSHHAsbestosAction = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripMenuItem80 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem81 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem79 = new System.Windows.Forms.ToolStripMenuItem();
@@ -537,13 +536,13 @@
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem5.Text = "Intervention";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // tbliftingOperationsIntervention
             // 
@@ -555,13 +554,13 @@
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem3.Text = "Comment";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // tbliftingOperationsComment
             // 
@@ -573,13 +572,13 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem2.Text = "Completed";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
             // 
             // tbliftingOperationsCompleted
             // 
@@ -591,13 +590,13 @@
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem4.Text = "Action Taken";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(177, 6);
             // 
             // tbliftingOperationsAction
             // 
@@ -628,70 +627,74 @@
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem6.Text = "Intervention";
             // 
             // toolStripSeparator77
             // 
             this.toolStripSeparator77.Name = "toolStripSeparator77";
-            this.toolStripSeparator77.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator77.Size = new System.Drawing.Size(177, 6);
             // 
             // tbCertificationIntervention
             // 
             this.tbCertificationIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbCertificationIntervention.Name = "tbCertificationIntervention";
             this.tbCertificationIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbCertificationIntervention.TextChanged += new System.EventHandler(this.tbCertificationIntervention_TextChanged);
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem8.Text = "Comment";
             // 
             // toolStripSeparator78
             // 
             this.toolStripSeparator78.Name = "toolStripSeparator78";
-            this.toolStripSeparator78.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator78.Size = new System.Drawing.Size(177, 6);
             // 
             // tbCertificationComment
             // 
             this.tbCertificationComment.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbCertificationComment.Name = "tbCertificationComment";
             this.tbCertificationComment.Size = new System.Drawing.Size(100, 23);
+            this.tbCertificationComment.TextChanged += new System.EventHandler(this.tbCertificationComment_TextChanged);
             // 
             // toolStripMenuItem9
             // 
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem9.Text = "Completed";
             // 
             // toolStripSeparator79
             // 
             this.toolStripSeparator79.Name = "toolStripSeparator79";
-            this.toolStripSeparator79.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator79.Size = new System.Drawing.Size(177, 6);
             // 
             // tbCertificationCompleted
             // 
             this.tbCertificationCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbCertificationCompleted.Name = "tbCertificationCompleted";
             this.tbCertificationCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbCertificationCompleted.TextChanged += new System.EventHandler(this.tbCertificationCompleted_TextChanged);
             // 
             // toolStripMenuItem10
             // 
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem10.Text = "Action Taken";
             // 
             // toolStripSeparator80
             // 
             this.toolStripSeparator80.Name = "toolStripSeparator80";
-            this.toolStripSeparator80.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator80.Size = new System.Drawing.Size(177, 6);
             // 
             // tbCertificationAction
             // 
             this.tbCertificationAction.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbCertificationAction.Name = "tbCertificationAction";
             this.tbCertificationAction.Size = new System.Drawing.Size(100, 23);
+            this.tbCertificationAction.TextChanged += new System.EventHandler(this.tbCertificationAction_TextChanged);
             // 
             // ConfinedSpaceWork
             // 
@@ -715,70 +718,74 @@
             // toolStripMenuItem11
             // 
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem11.Text = "Intervention";
             // 
             // toolStripSeparator81
             // 
             this.toolStripSeparator81.Name = "toolStripSeparator81";
-            this.toolStripSeparator81.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator81.Size = new System.Drawing.Size(177, 6);
             // 
             // tbConfinedSpaceWorkIntervention
             // 
             this.tbConfinedSpaceWorkIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbConfinedSpaceWorkIntervention.Name = "tbConfinedSpaceWorkIntervention";
             this.tbConfinedSpaceWorkIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbConfinedSpaceWorkIntervention.TextChanged += new System.EventHandler(this.tbConfinedSpaceWorkIntervention_TextChanged);
             // 
             // toolStripMenuItem13
             // 
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem13.Text = "Comment";
             // 
             // toolStripSeparator82
             // 
             this.toolStripSeparator82.Name = "toolStripSeparator82";
-            this.toolStripSeparator82.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator82.Size = new System.Drawing.Size(177, 6);
             // 
             // tbConfinedSpaceWorkComment
             // 
             this.tbConfinedSpaceWorkComment.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbConfinedSpaceWorkComment.Name = "tbConfinedSpaceWorkComment";
             this.tbConfinedSpaceWorkComment.Size = new System.Drawing.Size(100, 23);
+            this.tbConfinedSpaceWorkComment.TextChanged += new System.EventHandler(this.tbConfinedSpaceWorkComment_TextChanged);
             // 
             // toolStripMenuItem14
             // 
             this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem14.Text = "Completed";
             // 
             // toolStripSeparator83
             // 
             this.toolStripSeparator83.Name = "toolStripSeparator83";
-            this.toolStripSeparator83.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator83.Size = new System.Drawing.Size(177, 6);
             // 
             // tbConfinedSpaceWorkCompleted
             // 
             this.tbConfinedSpaceWorkCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbConfinedSpaceWorkCompleted.Name = "tbConfinedSpaceWorkCompleted";
             this.tbConfinedSpaceWorkCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbConfinedSpaceWorkCompleted.TextChanged += new System.EventHandler(this.tbConfinedSpaceWorkCompleted_TextChanged);
             // 
             // toolStripMenuItem15
             // 
             this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem15.Text = "Action Taken";
             // 
             // toolStripSeparator84
             // 
             this.toolStripSeparator84.Name = "toolStripSeparator84";
-            this.toolStripSeparator84.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator84.Size = new System.Drawing.Size(177, 6);
             // 
             // tbConfinedSpaceWorkAction
             // 
             this.tbConfinedSpaceWorkAction.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbConfinedSpaceWorkAction.Name = "tbConfinedSpaceWorkAction";
             this.tbConfinedSpaceWorkAction.Size = new System.Drawing.Size(100, 23);
+            this.tbConfinedSpaceWorkAction.TextChanged += new System.EventHandler(this.tbConfinedSpaceWorkAction_TextChanged);
             // 
             // toolStripMenuItem17
             // 
@@ -802,70 +809,74 @@
             // toolStripMenuItem16
             // 
             this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem16.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem16.Text = "Intervention";
             // 
             // toolStripSeparator85
             // 
             this.toolStripSeparator85.Name = "toolStripSeparator85";
-            this.toolStripSeparator85.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator85.Size = new System.Drawing.Size(177, 6);
             // 
             // tbElectricalWorkIntervention
             // 
             this.tbElectricalWorkIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbElectricalWorkIntervention.Name = "tbElectricalWorkIntervention";
             this.tbElectricalWorkIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbElectricalWorkIntervention.TextChanged += new System.EventHandler(this.tbElectricalWorkIntervention_TextChanged);
             // 
             // toolStripMenuItem18
             // 
             this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-            this.toolStripMenuItem18.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem18.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem18.Text = "Comment";
             // 
             // toolStripSeparator86
             // 
             this.toolStripSeparator86.Name = "toolStripSeparator86";
-            this.toolStripSeparator86.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator86.Size = new System.Drawing.Size(177, 6);
             // 
             // tbElectricalWorkComment
             // 
             this.tbElectricalWorkComment.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbElectricalWorkComment.Name = "tbElectricalWorkComment";
             this.tbElectricalWorkComment.Size = new System.Drawing.Size(100, 23);
+            this.tbElectricalWorkComment.TextChanged += new System.EventHandler(this.tbElectricalWorkComment_TextChanged);
             // 
             // toolStripMenuItem19
             // 
             this.toolStripMenuItem19.Name = "toolStripMenuItem19";
-            this.toolStripMenuItem19.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem19.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem19.Text = "Completed";
             // 
             // toolStripSeparator87
             // 
             this.toolStripSeparator87.Name = "toolStripSeparator87";
-            this.toolStripSeparator87.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator87.Size = new System.Drawing.Size(177, 6);
             // 
             // tbElectricalWorkCompleted
             // 
             this.tbElectricalWorkCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbElectricalWorkCompleted.Name = "tbElectricalWorkCompleted";
             this.tbElectricalWorkCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbElectricalWorkCompleted.TextChanged += new System.EventHandler(this.tbElectricalWorkCompleted_TextChanged);
             // 
             // toolStripMenuItem20
             // 
             this.toolStripMenuItem20.Name = "toolStripMenuItem20";
-            this.toolStripMenuItem20.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem20.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem20.Text = "Action Taken";
             // 
             // toolStripSeparator88
             // 
             this.toolStripSeparator88.Name = "toolStripSeparator88";
-            this.toolStripSeparator88.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator88.Size = new System.Drawing.Size(177, 6);
             // 
             // tbElectricalWorkAction
             // 
             this.tbElectricalWorkAction.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbElectricalWorkAction.Name = "tbElectricalWorkAction";
             this.tbElectricalWorkAction.Size = new System.Drawing.Size(100, 23);
+            this.tbElectricalWorkAction.TextChanged += new System.EventHandler(this.tbElectricalWorkAction_TextChanged);
             // 
             // toolStripMenuItem22
             // 
@@ -899,70 +910,74 @@
             // toolStripMenuItem21
             // 
             this.toolStripMenuItem21.Name = "toolStripMenuItem21";
-            this.toolStripMenuItem21.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem21.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem21.Text = "Intervention";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
             // 
             // tbSiteSetupIntervention
             // 
             this.tbSiteSetupIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbSiteSetupIntervention.Name = "tbSiteSetupIntervention";
             this.tbSiteSetupIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbSiteSetupIntervention.TextChanged += new System.EventHandler(this.tbSiteSetupIntervention_TextChanged);
             // 
             // toolStripMenuItem24
             // 
             this.toolStripMenuItem24.Name = "toolStripMenuItem24";
-            this.toolStripMenuItem24.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem24.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem24.Text = "Comment";
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(177, 6);
             // 
             // tbSiteSetupComment
             // 
             this.tbSiteSetupComment.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbSiteSetupComment.Name = "tbSiteSetupComment";
             this.tbSiteSetupComment.Size = new System.Drawing.Size(100, 23);
+            this.tbSiteSetupComment.TextChanged += new System.EventHandler(this.tbSiteSetupComment_TextChanged);
             // 
             // toolStripMenuItem25
             // 
             this.toolStripMenuItem25.Name = "toolStripMenuItem25";
-            this.toolStripMenuItem25.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem25.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem25.Text = "Completed";
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator7.Size = new System.Drawing.Size(177, 6);
             // 
             // tbSiteSetupCompleted
             // 
             this.tbSiteSetupCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbSiteSetupCompleted.Name = "tbSiteSetupCompleted";
             this.tbSiteSetupCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbSiteSetupCompleted.TextChanged += new System.EventHandler(this.tbSiteSetupCompleted_TextChanged);
             // 
             // toolStripMenuItem26
             // 
             this.toolStripMenuItem26.Name = "toolStripMenuItem26";
-            this.toolStripMenuItem26.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem26.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem26.Text = "Action Taken";
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(177, 6);
             // 
             // tbSiteSetupAction
             // 
             this.tbSiteSetupAction.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbSiteSetupAction.Name = "tbSiteSetupAction";
             this.tbSiteSetupAction.Size = new System.Drawing.Size(100, 23);
+            this.tbSiteSetupAction.TextChanged += new System.EventHandler(this.tbSiteSetupAction_TextChanged);
             // 
             // toolStripMenuItem38
             // 
@@ -986,70 +1001,74 @@
             // toolStripMenuItem27
             // 
             this.toolStripMenuItem27.Name = "toolStripMenuItem27";
-            this.toolStripMenuItem27.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem27.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem27.Text = "Intervention";
             // 
             // toolStripSeparator9
             // 
             this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator9.Size = new System.Drawing.Size(177, 6);
             // 
             // tbPaperworkIntervention
             // 
             this.tbPaperworkIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbPaperworkIntervention.Name = "tbPaperworkIntervention";
             this.tbPaperworkIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbPaperworkIntervention.TextChanged += new System.EventHandler(this.tbPaperworkIntervention_TextChanged);
             // 
             // toolStripMenuItem39
             // 
             this.toolStripMenuItem39.Name = "toolStripMenuItem39";
-            this.toolStripMenuItem39.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem39.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem39.Text = "Comment";
             // 
             // toolStripSeparator10
             // 
             this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator10.Size = new System.Drawing.Size(177, 6);
             // 
             // tbPaperworkComment
             // 
             this.tbPaperworkComment.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbPaperworkComment.Name = "tbPaperworkComment";
             this.tbPaperworkComment.Size = new System.Drawing.Size(100, 23);
+            this.tbPaperworkComment.TextChanged += new System.EventHandler(this.tbPaperworkComment_TextChanged);
             // 
             // toolStripMenuItem40
             // 
             this.toolStripMenuItem40.Name = "toolStripMenuItem40";
-            this.toolStripMenuItem40.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem40.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem40.Text = "Completed";
             // 
             // toolStripSeparator11
             // 
             this.toolStripSeparator11.Name = "toolStripSeparator11";
-            this.toolStripSeparator11.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator11.Size = new System.Drawing.Size(177, 6);
             // 
             // tbPaperworkCompleted
             // 
             this.tbPaperworkCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbPaperworkCompleted.Name = "tbPaperworkCompleted";
             this.tbPaperworkCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbPaperworkCompleted.TextChanged += new System.EventHandler(this.tbPaperworkCompleted_TextChanged);
             // 
             // toolStripMenuItem41
             // 
             this.toolStripMenuItem41.Name = "toolStripMenuItem41";
-            this.toolStripMenuItem41.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem41.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem41.Text = "Action Taken";
             // 
             // toolStripSeparator12
             // 
             this.toolStripSeparator12.Name = "toolStripSeparator12";
-            this.toolStripSeparator12.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator12.Size = new System.Drawing.Size(177, 6);
             // 
             // tbPaperworkAction
             // 
             this.tbPaperworkAction.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbPaperworkAction.Name = "tbPaperworkAction";
             this.tbPaperworkAction.Size = new System.Drawing.Size(100, 23);
+            this.tbPaperworkAction.TextChanged += new System.EventHandler(this.tbPaperworkAction_TextChanged);
             // 
             // CertificationTraining
             // 
@@ -1073,70 +1092,74 @@
             // toolStripMenuItem29
             // 
             this.toolStripMenuItem29.Name = "toolStripMenuItem29";
-            this.toolStripMenuItem29.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem29.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem29.Text = "Intervention";
             // 
             // toolStripSeparator13
             // 
             this.toolStripSeparator13.Name = "toolStripSeparator13";
-            this.toolStripSeparator13.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator13.Size = new System.Drawing.Size(177, 6);
             // 
             // tbCertificationTrainingIntervention
             // 
             this.tbCertificationTrainingIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbCertificationTrainingIntervention.Name = "tbCertificationTrainingIntervention";
             this.tbCertificationTrainingIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbCertificationTrainingIntervention.TextChanged += new System.EventHandler(this.tbCertificationTrainingIntervention_TextChanged);
             // 
             // toolStripMenuItem30
             // 
             this.toolStripMenuItem30.Name = "toolStripMenuItem30";
-            this.toolStripMenuItem30.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem30.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem30.Text = "Comment";
             // 
             // toolStripSeparator14
             // 
             this.toolStripSeparator14.Name = "toolStripSeparator14";
-            this.toolStripSeparator14.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator14.Size = new System.Drawing.Size(177, 6);
             // 
             // tbCertificationTrainingComment
             // 
             this.tbCertificationTrainingComment.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbCertificationTrainingComment.Name = "tbCertificationTrainingComment";
             this.tbCertificationTrainingComment.Size = new System.Drawing.Size(100, 23);
+            this.tbCertificationTrainingComment.TextChanged += new System.EventHandler(this.tbCertificationTrainingComment_TextChanged);
             // 
             // toolStripMenuItem31
             // 
             this.toolStripMenuItem31.Name = "toolStripMenuItem31";
-            this.toolStripMenuItem31.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem31.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem31.Text = "Completed";
             // 
             // toolStripSeparator15
             // 
             this.toolStripSeparator15.Name = "toolStripSeparator15";
-            this.toolStripSeparator15.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator15.Size = new System.Drawing.Size(177, 6);
             // 
             // tbCertificationTrainingCompleted
             // 
             this.tbCertificationTrainingCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbCertificationTrainingCompleted.Name = "tbCertificationTrainingCompleted";
             this.tbCertificationTrainingCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbCertificationTrainingCompleted.TextChanged += new System.EventHandler(this.tbCertificationTrainingCompleted_TextChanged);
             // 
             // toolStripMenuItem32
             // 
             this.toolStripMenuItem32.Name = "toolStripMenuItem32";
-            this.toolStripMenuItem32.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem32.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem32.Text = "Action Taken";
             // 
             // toolStripSeparator16
             // 
             this.toolStripSeparator16.Name = "toolStripSeparator16";
-            this.toolStripSeparator16.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator16.Size = new System.Drawing.Size(177, 6);
             // 
             // tbCertificationTrainingAction
             // 
             this.tbCertificationTrainingAction.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbCertificationTrainingAction.Name = "tbCertificationTrainingAction";
             this.tbCertificationTrainingAction.Size = new System.Drawing.Size(100, 23);
+            this.tbCertificationTrainingAction.TextChanged += new System.EventHandler(this.tbCertificationTrainingAction_TextChanged);
             // 
             // toolStripMenuItem33
             // 
@@ -1171,70 +1194,74 @@
             // toolStripMenuItem35
             // 
             this.toolStripMenuItem35.Name = "toolStripMenuItem35";
-            this.toolStripMenuItem35.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem35.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem35.Text = "Intervention";
             // 
             // toolStripSeparator17
             // 
             this.toolStripSeparator17.Name = "toolStripSeparator17";
-            this.toolStripSeparator17.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator17.Size = new System.Drawing.Size(177, 6);
             // 
             // tbHotWorkIntervention
             // 
             this.tbHotWorkIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbHotWorkIntervention.Name = "tbHotWorkIntervention";
             this.tbHotWorkIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbHotWorkIntervention.TextChanged += new System.EventHandler(this.tbHotWorkIntervention_TextChanged);
             // 
             // toolStripMenuItem36
             // 
             this.toolStripMenuItem36.Name = "toolStripMenuItem36";
-            this.toolStripMenuItem36.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem36.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem36.Text = "Comment";
             // 
             // toolStripSeparator18
             // 
             this.toolStripSeparator18.Name = "toolStripSeparator18";
-            this.toolStripSeparator18.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator18.Size = new System.Drawing.Size(177, 6);
             // 
             // tbHotWorkComment
             // 
             this.tbHotWorkComment.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbHotWorkComment.Name = "tbHotWorkComment";
             this.tbHotWorkComment.Size = new System.Drawing.Size(100, 23);
+            this.tbHotWorkComment.TextChanged += new System.EventHandler(this.tbHotWorkComment_TextChanged);
             // 
             // toolStripMenuItem37
             // 
             this.toolStripMenuItem37.Name = "toolStripMenuItem37";
-            this.toolStripMenuItem37.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem37.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem37.Text = "Completed";
             // 
             // toolStripSeparator19
             // 
             this.toolStripSeparator19.Name = "toolStripSeparator19";
-            this.toolStripSeparator19.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator19.Size = new System.Drawing.Size(177, 6);
             // 
             // tbHotWorkCompleted
             // 
             this.tbHotWorkCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbHotWorkCompleted.Name = "tbHotWorkCompleted";
             this.tbHotWorkCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbHotWorkCompleted.TextChanged += new System.EventHandler(this.tbHotWorkCompleted_TextChanged);
             // 
             // toolStripMenuItem42
             // 
             this.toolStripMenuItem42.Name = "toolStripMenuItem42";
-            this.toolStripMenuItem42.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem42.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem42.Text = "Action Taken";
             // 
             // toolStripSeparator20
             // 
             this.toolStripSeparator20.Name = "toolStripSeparator20";
-            this.toolStripSeparator20.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator20.Size = new System.Drawing.Size(177, 6);
             // 
             // tbHotWorkAction
             // 
             this.tbHotWorkAction.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbHotWorkAction.Name = "tbHotWorkAction";
             this.tbHotWorkAction.Size = new System.Drawing.Size(100, 23);
+            this.tbHotWorkAction.TextChanged += new System.EventHandler(this.tbHotWorkAction_TextChanged);
             // 
             // toolStripMenuItem59
             // 
@@ -1258,70 +1285,74 @@
             // toolStripMenuItem43
             // 
             this.toolStripMenuItem43.Name = "toolStripMenuItem43";
-            this.toolStripMenuItem43.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem43.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem43.Text = "Intervention";
             // 
             // toolStripSeparator33
             // 
             this.toolStripSeparator33.Name = "toolStripSeparator33";
-            this.toolStripSeparator33.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator33.Size = new System.Drawing.Size(177, 6);
             // 
             // tbIsolationIntervention
             // 
             this.tbIsolationIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbIsolationIntervention.Name = "tbIsolationIntervention";
             this.tbIsolationIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbIsolationIntervention.TextChanged += new System.EventHandler(this.tbIsolationIntervention_TextChanged);
             // 
             // toolStripMenuItem60
             // 
             this.toolStripMenuItem60.Name = "toolStripMenuItem60";
-            this.toolStripMenuItem60.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem60.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem60.Text = "Comment";
             // 
             // toolStripSeparator34
             // 
             this.toolStripSeparator34.Name = "toolStripSeparator34";
-            this.toolStripSeparator34.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator34.Size = new System.Drawing.Size(177, 6);
             // 
             // tbIsolationComment
             // 
             this.tbIsolationComment.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbIsolationComment.Name = "tbIsolationComment";
             this.tbIsolationComment.Size = new System.Drawing.Size(100, 23);
+            this.tbIsolationComment.TextChanged += new System.EventHandler(this.tbIsolationComment_TextChanged);
             // 
             // toolStripMenuItem61
             // 
             this.toolStripMenuItem61.Name = "toolStripMenuItem61";
-            this.toolStripMenuItem61.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem61.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem61.Text = "Completed";
             // 
             // toolStripSeparator35
             // 
             this.toolStripSeparator35.Name = "toolStripSeparator35";
-            this.toolStripSeparator35.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator35.Size = new System.Drawing.Size(177, 6);
             // 
             // tbIsolationCompleted
             // 
             this.tbIsolationCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbIsolationCompleted.Name = "tbIsolationCompleted";
             this.tbIsolationCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbIsolationCompleted.TextChanged += new System.EventHandler(this.tbIsolationCompleted_TextChanged);
             // 
             // toolStripMenuItem62
             // 
             this.toolStripMenuItem62.Name = "toolStripMenuItem62";
-            this.toolStripMenuItem62.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem62.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem62.Text = "Action Taken";
             // 
             // toolStripSeparator36
             // 
             this.toolStripSeparator36.Name = "toolStripSeparator36";
-            this.toolStripSeparator36.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator36.Size = new System.Drawing.Size(177, 6);
             // 
             // tbIsolationAction
             // 
             this.tbIsolationAction.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbIsolationAction.Name = "tbIsolationAction";
             this.tbIsolationAction.Size = new System.Drawing.Size(100, 23);
+            this.tbIsolationAction.TextChanged += new System.EventHandler(this.tbIsolationAction_TextChanged);
             // 
             // toolStripMenuItem49
             // 
@@ -1345,70 +1376,74 @@
             // toolStripMenuItem50
             // 
             this.toolStripMenuItem50.Name = "toolStripMenuItem50";
-            this.toolStripMenuItem50.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem50.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem50.Text = "Intervention";
             // 
             // toolStripSeparator25
             // 
             this.toolStripSeparator25.Name = "toolStripSeparator25";
-            this.toolStripSeparator25.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator25.Size = new System.Drawing.Size(177, 6);
             // 
             // tbFireExitIntervention
             // 
             this.tbFireExitIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbFireExitIntervention.Name = "tbFireExitIntervention";
             this.tbFireExitIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbFireExitIntervention.TextChanged += new System.EventHandler(this.tbFireExitIntervention_TextChanged);
             // 
             // toolStripMenuItem51
             // 
             this.toolStripMenuItem51.Name = "toolStripMenuItem51";
-            this.toolStripMenuItem51.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem51.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem51.Text = "Comment";
             // 
             // toolStripSeparator26
             // 
             this.toolStripSeparator26.Name = "toolStripSeparator26";
-            this.toolStripSeparator26.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator26.Size = new System.Drawing.Size(177, 6);
             // 
             // tbFireExitComment
             // 
             this.tbFireExitComment.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbFireExitComment.Name = "tbFireExitComment";
             this.tbFireExitComment.Size = new System.Drawing.Size(100, 23);
+            this.tbFireExitComment.TextChanged += new System.EventHandler(this.tbFireExitComment_TextChanged);
             // 
             // toolStripMenuItem52
             // 
             this.toolStripMenuItem52.Name = "toolStripMenuItem52";
-            this.toolStripMenuItem52.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem52.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem52.Text = "Completed";
             // 
             // toolStripSeparator27
             // 
             this.toolStripSeparator27.Name = "toolStripSeparator27";
-            this.toolStripSeparator27.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator27.Size = new System.Drawing.Size(177, 6);
             // 
             // tbFireExitCompleted
             // 
             this.tbFireExitCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbFireExitCompleted.Name = "tbFireExitCompleted";
             this.tbFireExitCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbFireExitCompleted.TextChanged += new System.EventHandler(this.tbFireExitCompleted_TextChanged);
             // 
             // toolStripMenuItem53
             // 
             this.toolStripMenuItem53.Name = "toolStripMenuItem53";
-            this.toolStripMenuItem53.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem53.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem53.Text = "Action Taken";
             // 
             // toolStripSeparator28
             // 
             this.toolStripSeparator28.Name = "toolStripSeparator28";
-            this.toolStripSeparator28.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator28.Size = new System.Drawing.Size(177, 6);
             // 
             // tbFireExitAction
             // 
             this.tbFireExitAction.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbFireExitAction.Name = "tbFireExitAction";
             this.tbFireExitAction.Size = new System.Drawing.Size(100, 23);
+            this.tbFireExitAction.TextChanged += new System.EventHandler(this.tbFireExitAction_TextChanged);
             // 
             // toolStripMenuItem44
             // 
@@ -1432,76 +1467,80 @@
             // toolStripMenuItem45
             // 
             this.toolStripMenuItem45.Name = "toolStripMenuItem45";
-            this.toolStripMenuItem45.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem45.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem45.Text = "Intervention";
             // 
             // toolStripSeparator21
             // 
             this.toolStripSeparator21.Name = "toolStripSeparator21";
-            this.toolStripSeparator21.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator21.Size = new System.Drawing.Size(177, 6);
             // 
             // tbAwarenessIntervention
             // 
             this.tbAwarenessIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbAwarenessIntervention.Name = "tbAwarenessIntervention";
             this.tbAwarenessIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbAwarenessIntervention.TextChanged += new System.EventHandler(this.tbAwarenessIntervention_TextChanged);
             // 
             // toolStripMenuItem46
             // 
             this.toolStripMenuItem46.Name = "toolStripMenuItem46";
-            this.toolStripMenuItem46.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem46.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem46.Text = "Comment";
             // 
             // toolStripSeparator22
             // 
             this.toolStripSeparator22.Name = "toolStripSeparator22";
-            this.toolStripSeparator22.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator22.Size = new System.Drawing.Size(177, 6);
             // 
             // tbAwarenessComment
             // 
             this.tbAwarenessComment.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbAwarenessComment.Name = "tbAwarenessComment";
             this.tbAwarenessComment.Size = new System.Drawing.Size(100, 23);
+            this.tbAwarenessComment.TextChanged += new System.EventHandler(this.tbAwarenessComment_TextChanged);
             // 
             // toolStripMenuItem47
             // 
             this.toolStripMenuItem47.Name = "toolStripMenuItem47";
-            this.toolStripMenuItem47.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem47.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem47.Text = "Completed";
             // 
             // toolStripSeparator23
             // 
             this.toolStripSeparator23.Name = "toolStripSeparator23";
-            this.toolStripSeparator23.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator23.Size = new System.Drawing.Size(177, 6);
             // 
             // tbAwarenessCompleted
             // 
             this.tbAwarenessCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbAwarenessCompleted.Name = "tbAwarenessCompleted";
             this.tbAwarenessCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbAwarenessCompleted.TextChanged += new System.EventHandler(this.tbAwarenessCompleted_TextChanged);
             // 
             // toolStripMenuItem48
             // 
             this.toolStripMenuItem48.Name = "toolStripMenuItem48";
-            this.toolStripMenuItem48.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem48.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem48.Text = "Action Taken";
             // 
             // toolStripSeparator24
             // 
             this.toolStripSeparator24.Name = "toolStripSeparator24";
-            this.toolStripSeparator24.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator24.Size = new System.Drawing.Size(177, 6);
             // 
             // tbAwarenessAction
             // 
             this.tbAwarenessAction.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbAwarenessAction.Name = "tbAwarenessAction";
             this.tbAwarenessAction.Size = new System.Drawing.Size(100, 23);
+            this.tbAwarenessAction.TextChanged += new System.EventHandler(this.tbAwarenessAction_TextChanged);
             // 
             // toolStripMenuItem64
             // 
             this.toolStripMenuItem64.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem65,
-            this.toolStripMenuItem70,
+            this.tbProductContamination,
             this.toolStripMenuItem75});
             this.toolStripMenuItem64.Name = "toolStripMenuItem64";
             this.toolStripMenuItem64.Size = new System.Drawing.Size(89, 22);
@@ -1510,18 +1549,18 @@
             // toolStripMenuItem65
             // 
             this.toolStripMenuItem65.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripSeparator37,
             this.toolStripMenuItem63,
-            this.toolStripTextBox37,
+            this.toolStripSeparator37,
+            this.tbWasteManagementIntervention,
             this.toolStripMenuItem66,
             this.toolStripSeparator38,
-            this.toolStripTextBox38,
+            this.tbWasteManagementComment,
             this.toolStripMenuItem67,
             this.toolStripSeparator39,
-            this.toolStripTextBox39,
+            this.tbWasteManagementCompleted,
             this.toolStripMenuItem68,
             this.toolStripSeparator40,
-            this.toolStripTextBox40});
+            this.tbWasteManagementAction});
             this.toolStripMenuItem65.Name = "toolStripMenuItem65";
             this.toolStripMenuItem65.Size = new System.Drawing.Size(199, 22);
             this.toolStripMenuItem65.Text = "Waste Management";
@@ -1529,181 +1568,181 @@
             // toolStripSeparator37
             // 
             this.toolStripSeparator37.Name = "toolStripSeparator37";
-            this.toolStripSeparator37.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator37.Size = new System.Drawing.Size(177, 6);
             // 
             // toolStripMenuItem63
             // 
-            this.toolStripMenuItem63.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.yESToolStripMenuItem});
             this.toolStripMenuItem63.Name = "toolStripMenuItem63";
-            this.toolStripMenuItem63.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem63.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem63.Text = "Intervention";
             // 
-            // yESToolStripMenuItem
+            // tbWasteManagementIntervention
             // 
-            this.yESToolStripMenuItem.Name = "yESToolStripMenuItem";
-            this.yESToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
-            this.yESToolStripMenuItem.Text = "YES";
-            // 
-            // toolStripTextBox37
-            // 
-            this.toolStripTextBox37.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox37.Name = "toolStripTextBox37";
-            this.toolStripTextBox37.Size = new System.Drawing.Size(100, 23);
+            this.tbWasteManagementIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbWasteManagementIntervention.Name = "tbWasteManagementIntervention";
+            this.tbWasteManagementIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbWasteManagementIntervention.TextChanged += new System.EventHandler(this.tbWasteManagementIntervention_TextChanged);
             // 
             // toolStripMenuItem66
             // 
             this.toolStripMenuItem66.Name = "toolStripMenuItem66";
-            this.toolStripMenuItem66.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem66.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem66.Text = "Comment";
             // 
             // toolStripSeparator38
             // 
             this.toolStripSeparator38.Name = "toolStripSeparator38";
-            this.toolStripSeparator38.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator38.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripTextBox38
+            // tbWasteManagementComment
             // 
-            this.toolStripTextBox38.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox38.Name = "toolStripTextBox38";
-            this.toolStripTextBox38.Size = new System.Drawing.Size(100, 23);
+            this.tbWasteManagementComment.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbWasteManagementComment.Name = "tbWasteManagementComment";
+            this.tbWasteManagementComment.Size = new System.Drawing.Size(100, 23);
+            this.tbWasteManagementComment.TextChanged += new System.EventHandler(this.tbWasteManagementComment_TextChanged);
             // 
             // toolStripMenuItem67
             // 
             this.toolStripMenuItem67.Name = "toolStripMenuItem67";
-            this.toolStripMenuItem67.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem67.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem67.Text = "Completed";
             // 
             // toolStripSeparator39
             // 
             this.toolStripSeparator39.Name = "toolStripSeparator39";
-            this.toolStripSeparator39.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator39.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripTextBox39
+            // tbWasteManagementCompleted
             // 
-            this.toolStripTextBox39.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox39.Name = "toolStripTextBox39";
-            this.toolStripTextBox39.Size = new System.Drawing.Size(100, 23);
+            this.tbWasteManagementCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbWasteManagementCompleted.Name = "tbWasteManagementCompleted";
+            this.tbWasteManagementCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbWasteManagementCompleted.TextChanged += new System.EventHandler(this.tbWasteManagementCompleted_TextChanged);
             // 
             // toolStripMenuItem68
             // 
             this.toolStripMenuItem68.Name = "toolStripMenuItem68";
-            this.toolStripMenuItem68.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem68.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem68.Text = "Action Taken";
             // 
             // toolStripSeparator40
             // 
             this.toolStripSeparator40.Name = "toolStripSeparator40";
-            this.toolStripSeparator40.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator40.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripTextBox40
+            // tbWasteManagementAction
             // 
-            this.toolStripTextBox40.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox40.Name = "toolStripTextBox40";
-            this.toolStripTextBox40.Size = new System.Drawing.Size(100, 23);
+            this.tbWasteManagementAction.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbWasteManagementAction.Name = "tbWasteManagementAction";
+            this.tbWasteManagementAction.Size = new System.Drawing.Size(100, 23);
+            this.tbWasteManagementAction.TextChanged += new System.EventHandler(this.tbWasteManagementAction_TextChanged);
             // 
-            // toolStripMenuItem70
+            // tbProductContamination
             // 
-            this.toolStripMenuItem70.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tbProductContamination.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem69,
             this.toolStripSeparator41,
-            this.toolStripTextBox41,
+            this.tbProductContaminationIntervention,
             this.toolStripMenuItem71,
             this.toolStripSeparator42,
-            this.toolStripTextBox42,
+            this.tbProductContaminationComment,
             this.toolStripMenuItem72,
             this.toolStripSeparator43,
-            this.toolStripTextBox43,
+            this.tbProductContaminationCompleted,
             this.toolStripMenuItem73,
             this.toolStripSeparator44,
-            this.toolStripTextBox44});
-            this.toolStripMenuItem70.Name = "toolStripMenuItem70";
-            this.toolStripMenuItem70.Size = new System.Drawing.Size(199, 22);
-            this.toolStripMenuItem70.Text = "Product Contamination";
+            this.tbProductContaminationAction});
+            this.tbProductContamination.Name = "tbProductContamination";
+            this.tbProductContamination.Size = new System.Drawing.Size(199, 22);
+            this.tbProductContamination.Text = "Product Contamination";
             // 
             // toolStripMenuItem69
             // 
             this.toolStripMenuItem69.Name = "toolStripMenuItem69";
-            this.toolStripMenuItem69.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem69.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem69.Text = "Intervention";
             // 
             // toolStripSeparator41
             // 
             this.toolStripSeparator41.Name = "toolStripSeparator41";
-            this.toolStripSeparator41.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator41.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripTextBox41
+            // tbProductContaminationIntervention
             // 
-            this.toolStripTextBox41.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox41.Name = "toolStripTextBox41";
-            this.toolStripTextBox41.Size = new System.Drawing.Size(100, 23);
+            this.tbProductContaminationIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbProductContaminationIntervention.Name = "tbProductContaminationIntervention";
+            this.tbProductContaminationIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbProductContaminationIntervention.TextChanged += new System.EventHandler(this.tbProductContaminationIntervention_TextChanged);
             // 
             // toolStripMenuItem71
             // 
             this.toolStripMenuItem71.Name = "toolStripMenuItem71";
-            this.toolStripMenuItem71.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem71.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem71.Text = "Comment";
             // 
             // toolStripSeparator42
             // 
             this.toolStripSeparator42.Name = "toolStripSeparator42";
-            this.toolStripSeparator42.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator42.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripTextBox42
+            // tbProductContaminationComment
             // 
-            this.toolStripTextBox42.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox42.Name = "toolStripTextBox42";
-            this.toolStripTextBox42.Size = new System.Drawing.Size(100, 23);
+            this.tbProductContaminationComment.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbProductContaminationComment.Name = "tbProductContaminationComment";
+            this.tbProductContaminationComment.Size = new System.Drawing.Size(100, 23);
+            this.tbProductContaminationComment.TextChanged += new System.EventHandler(this.tbProductContaminationComment_TextChanged);
             // 
             // toolStripMenuItem72
             // 
             this.toolStripMenuItem72.Name = "toolStripMenuItem72";
-            this.toolStripMenuItem72.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem72.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem72.Text = "Completed";
             // 
             // toolStripSeparator43
             // 
             this.toolStripSeparator43.Name = "toolStripSeparator43";
-            this.toolStripSeparator43.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator43.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripTextBox43
+            // tbProductContaminationCompleted
             // 
-            this.toolStripTextBox43.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox43.Name = "toolStripTextBox43";
-            this.toolStripTextBox43.Size = new System.Drawing.Size(100, 23);
+            this.tbProductContaminationCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbProductContaminationCompleted.Name = "tbProductContaminationCompleted";
+            this.tbProductContaminationCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbProductContaminationCompleted.TextChanged += new System.EventHandler(this.tbProductContaminationCompleted_TextChanged);
             // 
             // toolStripMenuItem73
             // 
             this.toolStripMenuItem73.Name = "toolStripMenuItem73";
-            this.toolStripMenuItem73.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem73.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem73.Text = "Action Taken";
             // 
             // toolStripSeparator44
             // 
             this.toolStripSeparator44.Name = "toolStripSeparator44";
-            this.toolStripSeparator44.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator44.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripTextBox44
+            // tbProductContaminationAction
             // 
-            this.toolStripTextBox44.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox44.Name = "toolStripTextBox44";
-            this.toolStripTextBox44.Size = new System.Drawing.Size(100, 23);
+            this.tbProductContaminationAction.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbProductContaminationAction.Name = "tbProductContaminationAction";
+            this.tbProductContaminationAction.Size = new System.Drawing.Size(100, 23);
+            this.tbProductContaminationAction.TextChanged += new System.EventHandler(this.tbProductContaminationAction_TextChanged);
             // 
             // toolStripMenuItem75
             // 
             this.toolStripMenuItem75.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem74,
             this.toolStripSeparator45,
-            this.toolStripTextBox45,
+            this.tbCOSHHAsbestosIntervention,
             this.toolStripMenuItem76,
             this.toolStripSeparator46,
-            this.toolStripTextBox46,
+            this.tbCOSHHAsbestosComment,
             this.toolStripMenuItem77,
             this.toolStripSeparator47,
-            this.toolStripTextBox47,
+            this.tbCOSHHAsbestosCompleted,
             this.toolStripMenuItem78,
             this.toolStripSeparator48,
-            this.toolStripTextBox48});
+            this.tbCOSHHAsbestosAction});
             this.toolStripMenuItem75.Name = "toolStripMenuItem75";
             this.toolStripMenuItem75.Size = new System.Drawing.Size(199, 22);
             this.toolStripMenuItem75.Text = "COSHH and Asbestos";
@@ -1711,70 +1750,74 @@
             // toolStripMenuItem74
             // 
             this.toolStripMenuItem74.Name = "toolStripMenuItem74";
-            this.toolStripMenuItem74.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem74.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem74.Text = "Intervention";
             // 
             // toolStripSeparator45
             // 
             this.toolStripSeparator45.Name = "toolStripSeparator45";
-            this.toolStripSeparator45.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator45.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripTextBox45
+            // tbCOSHHAsbestosIntervention
             // 
-            this.toolStripTextBox45.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox45.Name = "toolStripTextBox45";
-            this.toolStripTextBox45.Size = new System.Drawing.Size(100, 23);
+            this.tbCOSHHAsbestosIntervention.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbCOSHHAsbestosIntervention.Name = "tbCOSHHAsbestosIntervention";
+            this.tbCOSHHAsbestosIntervention.Size = new System.Drawing.Size(100, 23);
+            this.tbCOSHHAsbestosIntervention.TextChanged += new System.EventHandler(this.tbCOSHHAsbestosIntervention_TextChanged);
             // 
             // toolStripMenuItem76
             // 
             this.toolStripMenuItem76.Name = "toolStripMenuItem76";
-            this.toolStripMenuItem76.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem76.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem76.Text = "Comment";
             // 
             // toolStripSeparator46
             // 
             this.toolStripSeparator46.Name = "toolStripSeparator46";
-            this.toolStripSeparator46.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator46.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripTextBox46
+            // tbCOSHHAsbestosComment
             // 
-            this.toolStripTextBox46.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox46.Name = "toolStripTextBox46";
-            this.toolStripTextBox46.Size = new System.Drawing.Size(100, 23);
+            this.tbCOSHHAsbestosComment.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbCOSHHAsbestosComment.Name = "tbCOSHHAsbestosComment";
+            this.tbCOSHHAsbestosComment.Size = new System.Drawing.Size(100, 23);
+            this.tbCOSHHAsbestosComment.TextChanged += new System.EventHandler(this.tbCOSHHAsbestosComment_TextChanged);
             // 
             // toolStripMenuItem77
             // 
             this.toolStripMenuItem77.Name = "toolStripMenuItem77";
-            this.toolStripMenuItem77.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem77.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem77.Text = "Completed";
             // 
             // toolStripSeparator47
             // 
             this.toolStripSeparator47.Name = "toolStripSeparator47";
-            this.toolStripSeparator47.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator47.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripTextBox47
+            // tbCOSHHAsbestosCompleted
             // 
-            this.toolStripTextBox47.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox47.Name = "toolStripTextBox47";
-            this.toolStripTextBox47.Size = new System.Drawing.Size(100, 23);
+            this.tbCOSHHAsbestosCompleted.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbCOSHHAsbestosCompleted.Name = "tbCOSHHAsbestosCompleted";
+            this.tbCOSHHAsbestosCompleted.Size = new System.Drawing.Size(100, 23);
+            this.tbCOSHHAsbestosCompleted.TextChanged += new System.EventHandler(this.tbCOSHHAsbestosCompleted_TextChanged);
             // 
             // toolStripMenuItem78
             // 
             this.toolStripMenuItem78.Name = "toolStripMenuItem78";
-            this.toolStripMenuItem78.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem78.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem78.Text = "Action Taken";
             // 
             // toolStripSeparator48
             // 
             this.toolStripSeparator48.Name = "toolStripSeparator48";
-            this.toolStripSeparator48.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator48.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripTextBox48
+            // tbCOSHHAsbestosAction
             // 
-            this.toolStripTextBox48.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox48.Name = "toolStripTextBox48";
-            this.toolStripTextBox48.Size = new System.Drawing.Size(100, 23);
+            this.tbCOSHHAsbestosAction.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbCOSHHAsbestosAction.Name = "tbCOSHHAsbestosAction";
+            this.tbCOSHHAsbestosAction.Size = new System.Drawing.Size(100, 23);
+            this.tbCOSHHAsbestosAction.TextChanged += new System.EventHandler(this.tbCOSHHAsbestosAction_TextChanged);
             // 
             // toolStripMenuItem80
             // 
@@ -1802,7 +1845,7 @@
             this.toolStripSeparator52,
             this.toolStripTextBox52});
             this.toolStripMenuItem81.Name = "toolStripMenuItem81";
-            this.toolStripMenuItem81.Size = new System.Drawing.Size(169, 22);
+            this.toolStripMenuItem81.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem81.Text = "PPE";
             // 
             // toolStripMenuItem79
@@ -1898,7 +1941,7 @@
             this.toolStripSeparator56,
             this.toolStripTextBox56});
             this.toolStripMenuItem86.Name = "toolStripMenuItem86";
-            this.toolStripMenuItem86.Size = new System.Drawing.Size(169, 22);
+            this.toolStripMenuItem86.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem86.Text = "Manuel Handling";
             // 
             // toolStripMenuItem85
@@ -1985,7 +2028,7 @@
             this.toolStripSeparator60,
             this.toolStripTextBox60});
             this.toolStripMenuItem91.Name = "toolStripMenuItem91";
-            this.toolStripMenuItem91.Size = new System.Drawing.Size(169, 22);
+            this.toolStripMenuItem91.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem91.Text = "Other Contractors";
             // 
             // toolStripMenuItem90
@@ -3142,43 +3185,42 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem65;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator37;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem63;
-        private System.Windows.Forms.ToolStripMenuItem yESToolStripMenuItem;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox37;
+        private System.Windows.Forms.ToolStripTextBox tbWasteManagementIntervention;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem66;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator38;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox38;
+        private System.Windows.Forms.ToolStripTextBox tbWasteManagementComment;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem67;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator39;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox39;
+        private System.Windows.Forms.ToolStripTextBox tbWasteManagementCompleted;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem68;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator40;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox40;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem70;
+        private System.Windows.Forms.ToolStripTextBox tbWasteManagementAction;
+        private System.Windows.Forms.ToolStripMenuItem tbProductContamination;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem69;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator41;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox41;
+        private System.Windows.Forms.ToolStripTextBox tbProductContaminationIntervention;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem71;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator42;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox42;
+        private System.Windows.Forms.ToolStripTextBox tbProductContaminationComment;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem72;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator43;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox43;
+        private System.Windows.Forms.ToolStripTextBox tbProductContaminationCompleted;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem73;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator44;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox44;
+        private System.Windows.Forms.ToolStripTextBox tbProductContaminationAction;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem75;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem74;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator45;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox45;
+        private System.Windows.Forms.ToolStripTextBox tbCOSHHAsbestosIntervention;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem76;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator46;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox46;
+        private System.Windows.Forms.ToolStripTextBox tbCOSHHAsbestosComment;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem77;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator47;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox47;
+        private System.Windows.Forms.ToolStripTextBox tbCOSHHAsbestosCompleted;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem78;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator48;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox48;
+        private System.Windows.Forms.ToolStripTextBox tbCOSHHAsbestosAction;
         private System.Windows.Forms.Button Bn_SavePDF;
     }
 }

@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SoftEngSiteBrief-main",
+    "\\SoftEngSiteBrief-main\\SoftEngSiteBuild",
+    "\\SoftEngSiteBrief-main\\SoftEngSiteBuild\\SoftEngSiteBuild"
   ],
-  "SelectedNode": "\\SoftEngSiteBuild.sln",
+  "SelectedNode": "\\SoftEngSiteBrief-main\\SoftEngSiteBuild\\SoftEngSiteBuild\\AuditFormData.cs",
   "PreviewInSolutionExplorer": false
 }
