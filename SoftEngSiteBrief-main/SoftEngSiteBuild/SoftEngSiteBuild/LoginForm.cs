@@ -60,7 +60,7 @@ namespace SoftEngSiteBuild
 
             string Username = username.Text;
             string Password = password.Text;
-            string sqlQuery = "Select * FROM Person WHERE Username = '" + Username + "' AND Password = '" + Password + "'";
+            string sqlQuery = "Select * FROM Person WHERE Username = '" + Username + "' AND Password = '" + Password + "'"; // select query is used to retrieve data from database
 
 
             DataSet datasetPerson = dbConn.getDataSet(sqlQuery);
@@ -68,12 +68,18 @@ namespace SoftEngSiteBuild
 
 
 
-            if (datasetPerson.Tables[0].Rows.Count == 1)
+            if (datasetPerson.Tables[0].Rows.Count == 1) // this checks whether user exist in database 
             {
                 MessageBox.Show("Your have succesfully logged in!");
                 new SiteInspection().Show();
-
             }
+
+            else if (username.Text == "" || password.Text == "") // checks if user has entered nothing
+            {
+                MessageBox.Show("These fields cannot be blank! Please try again!");
+            }
+
+            
             else
             {
 

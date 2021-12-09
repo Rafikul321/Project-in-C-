@@ -409,3 +409,30 @@ C:\Users\rafik\Documents\uni\Year 2\Software engineering\new code\SoftEngSiteBri
 C:\Users\rafik\Documents\uni\Year 2\Software engineering\new code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.csproj.CoreCompileInputs.cache
 C:\Users\rafik\Documents\uni\Year 2\Software engineering\new code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.exe
 C:\Users\rafik\Documents\uni\Year 2\Software engineering\new code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\obj\Debug\SoftEngSiteBuild.pdb
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\MigraDoc.DocumentObjectModel-gdi.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\MigraDoc.Rendering-gdi.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\MigraDoc.RtfRendering-gdi.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\PdfSharp-gdi.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\PdfSharp.Charting-gdi.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\System.Buffers.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\System.Collections.Immutable.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\System.Memory.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\MigraDoc.DocumentObjectModel-gdi.xml
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\MigraDoc.Rendering-gdi.xml
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\MigraDoc.RtfRendering-gdi.xml
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\PdfSharp-gdi.xml
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\PdfSharp.Charting-gdi.xml
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\System.Buffers.xml
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\System.Collections.Immutable.xml
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\System.Memory.xml
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\de\MigraDoc.DocumentObjectModel-gdi.resources.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\de\MigraDoc.Rendering-gdi.resources.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\de\MigraDoc.RtfRendering-gdi.resources.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\de\PdfSharp-gdi.resources.dll
+C:\Users\rafik\Documents\uni\Year 2\Software engineering\code\SoftEngSiteBrief-main\SoftEngSiteBuild\SoftEngSiteBuild\bin\Debug\de\PdfSharp.Charting-gdi.resources.dll
