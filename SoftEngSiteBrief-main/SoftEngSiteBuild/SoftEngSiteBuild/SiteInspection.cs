@@ -49,17 +49,12 @@ namespace SoftEngSiteBuild
         {
 
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-           
-        }
       
 
         private void Button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Form1().Show();
+            new InspectionForm().Show();
         }
 
         private void BtLoadData_Click(object sender, EventArgs e)

@@ -103,12 +103,6 @@
       <DependentUpon>Biodata.cs</DependentUpon>
     </Compile>
     <Compile Include="PDFDocumentation.cs" />
-    <Compile Include="DashBoard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DashBoard.Designer.cs">
-      <DependentUpon>DashBoard.cs</DependentUpon>
-    </Compile>
     <Compile Include="DataB.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,19 +110,13 @@
       <DependentUpon>DataB.cs</DependentUpon>
     </Compile>
     <Compile Include="DBConnection.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InspectionClass.cs" />
     <Compile Include="InspectionForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InspectionForm.designer.cs">
+    <Compile Include="InspectionForm.Designer.cs">
       <DependentUpon>InspectionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="InspectionClass.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,14 +146,8 @@
     <EmbeddedResource Include="Biodata.resx">
       <DependentUpon>Biodata.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DashBoard.resx">
-      <DependentUpon>DashBoard.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="DataB.resx">
       <DependentUpon>DataB.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InspectionForm.resx">
       <DependentUpon>InspectionForm.cs</DependentUpon>

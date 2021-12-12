@@ -86,12 +86,8 @@ namespace SoftEngSiteBuild
 
 
                 //execute command 
+
                 sqlCommand.ExecuteNonQuery();
-
-
-
-
-
 
 
 

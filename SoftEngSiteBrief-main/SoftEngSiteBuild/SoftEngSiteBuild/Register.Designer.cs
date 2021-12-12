@@ -49,51 +49,50 @@
             // LabelDOB
             // 
             this.LabelDOB.AutoSize = true;
-            this.LabelDOB.Location = new System.Drawing.Point(267, 211);
+            this.LabelDOB.Location = new System.Drawing.Point(178, 137);
+            this.LabelDOB.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LabelDOB.Name = "LabelDOB";
-            this.LabelDOB.Size = new System.Drawing.Size(44, 20);
+            this.LabelDOB.Size = new System.Drawing.Size(30, 13);
             this.LabelDOB.TabIndex = 9;
             this.LabelDOB.Text = "DOB";
             // 
             // LabelName
             // 
             this.LabelName.AutoSize = true;
-            this.LabelName.Location = new System.Drawing.Point(267, 169);
+            this.LabelName.Location = new System.Drawing.Point(178, 110);
+            this.LabelName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LabelName.Name = "LabelName";
-            this.LabelName.Size = new System.Drawing.Size(51, 20);
+            this.LabelName.Size = new System.Drawing.Size(35, 13);
             this.LabelName.TabIndex = 7;
             this.LabelName.Text = "Name";
             // 
             // TableName
             // 
-            this.TableName.Location = new System.Drawing.Point(448, 165);
+            this.TableName.Location = new System.Drawing.Point(299, 107);
+            this.TableName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TableName.Name = "TableName";
-            this.TableName.Size = new System.Drawing.Size(218, 26);
+            this.TableName.Size = new System.Drawing.Size(147, 20);
             this.TableName.TabIndex = 6;
-            this.TableName.TextChanged += new System.EventHandler(this.TableName_TextChanged);
             // 
             // Username
             // 
-            this.Username.Location = new System.Drawing.Point(448, 268);
-            this.Username.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Username.Location = new System.Drawing.Point(299, 174);
             this.Username.Name = "Username";
-            this.Username.Size = new System.Drawing.Size(220, 26);
+            this.Username.Size = new System.Drawing.Size(148, 20);
             this.Username.TabIndex = 10;
             // 
             // Password
             // 
-            this.Password.Location = new System.Drawing.Point(448, 325);
-            this.Password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Password.Location = new System.Drawing.Point(299, 211);
             this.Password.Name = "Password";
-            this.Password.Size = new System.Drawing.Size(220, 26);
+            this.Password.Size = new System.Drawing.Size(148, 20);
             this.Password.TabIndex = 11;
             // 
             // RegisterUser
             // 
-            this.RegisterUser.Location = new System.Drawing.Point(448, 478);
-            this.RegisterUser.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.RegisterUser.Location = new System.Drawing.Point(299, 311);
             this.RegisterUser.Name = "RegisterUser";
-            this.RegisterUser.Size = new System.Drawing.Size(219, 40);
+            this.RegisterUser.Size = new System.Drawing.Size(146, 26);
             this.RegisterUser.TabIndex = 12;
             this.RegisterUser.Text = "RegisterYourAccount";
             this.RegisterUser.UseVisualStyleBackColor = true;
@@ -101,10 +100,9 @@
             // 
             // GobackToLogInPage
             // 
-            this.GobackToLogInPage.Location = new System.Drawing.Point(454, 577);
-            this.GobackToLogInPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.GobackToLogInPage.Location = new System.Drawing.Point(303, 375);
             this.GobackToLogInPage.Name = "GobackToLogInPage";
-            this.GobackToLogInPage.Size = new System.Drawing.Size(212, 40);
+            this.GobackToLogInPage.Size = new System.Drawing.Size(141, 26);
             this.GobackToLogInPage.TabIndex = 13;
             this.GobackToLogInPage.Text = "Go back to log in page";
             this.GobackToLogInPage.UseVisualStyleBackColor = true;
@@ -112,53 +110,56 @@
             // 
             // TableDOB
             // 
-            this.TableDOB.Location = new System.Drawing.Point(448, 211);
+            this.TableDOB.Location = new System.Drawing.Point(299, 137);
+            this.TableDOB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TableDOB.Name = "TableDOB";
-            this.TableDOB.Size = new System.Drawing.Size(218, 26);
+            this.TableDOB.Size = new System.Drawing.Size(147, 20);
             this.TableDOB.TabIndex = 14;
-            this.TableDOB.TextChanged += new System.EventHandler(this.TableAge_TextChanged_1);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(267, 272);
+            this.label1.Location = new System.Drawing.Point(178, 177);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 20);
+            this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 15;
             this.label1.Text = "Username";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(267, 329);
+            this.label2.Location = new System.Drawing.Point(178, 214);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 20);
+            this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 16;
             this.label2.Text = "Password";
             // 
             // confirmPassword
             // 
-            this.confirmPassword.Location = new System.Drawing.Point(448, 382);
-            this.confirmPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.confirmPassword.Location = new System.Drawing.Point(299, 248);
             this.confirmPassword.Name = "confirmPassword";
-            this.confirmPassword.Size = new System.Drawing.Size(220, 26);
+            this.confirmPassword.Size = new System.Drawing.Size(148, 20);
             this.confirmPassword.TabIndex = 17;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(267, 385);
+            this.label3.Location = new System.Drawing.Point(178, 250);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 20);
+            this.label3.Size = new System.Drawing.Size(91, 13);
             this.label3.TabIndex = 18;
             this.label3.Text = "Confirm Password";
             // 
             // showPassword
             // 
             this.showPassword.AutoSize = true;
-            this.showPassword.Location = new System.Drawing.Point(712, 326);
+            this.showPassword.Location = new System.Drawing.Point(475, 212);
+            this.showPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.showPassword.Name = "showPassword";
-            this.showPassword.Size = new System.Drawing.Size(150, 24);
+            this.showPassword.Size = new System.Drawing.Size(108, 17);
             this.showPassword.TabIndex = 19;
             this.showPassword.Text = "Show Password?";
             this.showPassword.UseVisualStyleBackColor = true;
@@ -166,9 +167,10 @@
             // 
             // ClearButton
             // 
-            this.ClearButton.Location = new System.Drawing.Point(514, 415);
+            this.ClearButton.Location = new System.Drawing.Point(343, 270);
+            this.ClearButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ClearButton.Name = "ClearButton";
-            this.ClearButton.Size = new System.Drawing.Size(88, 29);
+            this.ClearButton.Size = new System.Drawing.Size(59, 19);
             this.ClearButton.TabIndex = 20;
             this.ClearButton.Text = "Clear";
             this.ClearButton.UseVisualStyleBackColor = true;
@@ -177,29 +179,30 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(722, 217);
+            this.label4.Location = new System.Drawing.Point(481, 141);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(256, 20);
+            this.label4.Size = new System.Drawing.Size(171, 13);
             this.label4.TabIndex = 21;
             this.label4.Text = "Format:  daymonthyear e.g 081221";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label5.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.label5.Location = new System.Drawing.Point(708, 382);
+            this.label5.Location = new System.Drawing.Point(472, 248);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(363, 22);
+            this.label5.Size = new System.Drawing.Size(243, 15);
             this.label5.TabIndex = 22;
             this.label5.Text = "Password must include a minimum of 7 characters";
             // 
             // Register
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1250, 748);
+            this.ClientSize = new System.Drawing.Size(833, 486);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.ClearButton);
@@ -216,7 +219,6 @@
             this.Controls.Add(this.LabelDOB);
             this.Controls.Add(this.LabelName);
             this.Controls.Add(this.TableName);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Register";
             this.Text = "Register";
             this.Load += new System.EventHandler(this.Register_Load);

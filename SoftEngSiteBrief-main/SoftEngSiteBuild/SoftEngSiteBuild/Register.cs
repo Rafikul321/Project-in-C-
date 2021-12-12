@@ -21,29 +21,6 @@ namespace SoftEngSiteBuild
         }
         DataBaseConnection dbConn = DataBaseConnection.GetInstanceofDataBaseConnection();
 
-
-        private void Label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-
-        private void TableAge_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void RegisterUser_Click(object sender, EventArgs e)
         {
             if (Username.Text == "" || Password.Text == "" || confirmPassword.Text == "" || TableName.Text == "" || TableDOB.Text == "" ) // '||' sign is the logic operator for OR...
@@ -62,21 +39,7 @@ namespace SoftEngSiteBuild
                 string password = Password.Text; 
                 string name = TableName.Text;
 
-                
-
-
-   /*             for (int item=0; item< dgvPerson.Rows.Count;item ++)
-                {
-                    if(Username.Text == dvgPerson.Rows[item].Cells[0].Value.ToString())
-                    {
-                        MessageBox.Show("username already exist");
-                        return;
-
-        
-                }
-                
-
-   */
+                // try and catch is used to prevent any exceptions... e.g when user enters letters in 'DOB' it will catch the exception and notify user what has occured 
                 try
                 {
                     //class 'Convert.ToInt32' converts the datatype'
@@ -93,12 +56,8 @@ namespace SoftEngSiteBuild
                     MessageBox.Show("Please only enter numbers in 'DOB'");
                 }
 
-
-
-                
-
             }
-            else
+            else // this else statement is displayed when user does not enter appropiate credentials
             {
                 MessageBox.Show("Username and Password do NOT meet requirements, Please Try Again");
 
@@ -107,15 +66,9 @@ namespace SoftEngSiteBuild
                 // this empties the text 
                 Username.Focus(); // brings keyboard to Username so user can type instantly
 
-
-
             }
-     
-
 
         }
-
-
 
 
         private void GobackToLogInPage_Click(object sender, EventArgs e)
@@ -124,20 +77,12 @@ namespace SoftEngSiteBuild
             this.Hide();
         }
 
-        private void TableAge_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void Register_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void TableName_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
 
         private void showPassword_CheckedChanged(object sender, EventArgs e)
             // this allows user to display password to check if it is intended input
@@ -167,9 +112,5 @@ namespace SoftEngSiteBuild
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
