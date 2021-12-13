@@ -39,7 +39,7 @@ namespace SoftEngSiteBuild
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(167, 64);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Load Details about all Users";
+            this.button2.Text = "Click here to access database";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -49,7 +49,7 @@ namespace SoftEngSiteBuild
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBox1.Location = new System.Drawing.Point(72, 55);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(1);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(327, 19);
             this.textBox1.TabIndex = 4;
@@ -62,7 +62,7 @@ namespace SoftEngSiteBuild
             this.ClientSize = new System.Drawing.Size(533, 292);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UserDetails";
             this.Text = "UserDetails";
             this.ResumeLayout(false);
