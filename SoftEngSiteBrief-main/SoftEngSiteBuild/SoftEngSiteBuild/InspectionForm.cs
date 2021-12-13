@@ -300,8 +300,7 @@ namespace SoftEngSiteBuild
 
         private void BnSave_Click(object sender, EventArgs e)
         {
-            //System.Console.WriteLine(auditFormData.WorkAtHeightIntervention);
-            //.txt document
+            //save to .txt document
             AuditFormData afd = new AuditFormData();
             Type afdType = afd.GetType();
             PropertyInfo[] pInfo = afdType.GetProperties();
@@ -314,7 +313,7 @@ namespace SoftEngSiteBuild
 
         private void Bn_SavePDF_Click(object sender, EventArgs e)
         {
-            //PDF Document
+            //Save to PDF Document
             Document document = PDFDocumentation.CreateDocument();
             document.UseCmykColor = true;
             const bool unicode = false;
@@ -322,7 +321,7 @@ namespace SoftEngSiteBuild
             PdfDocumentRenderer pdfRenderer = new PdfDocumentRenderer(unicode, embedding);
             pdfRenderer.Document = document;
             pdfRenderer.RenderDocument();
-            const string filename = "HelloWorld.pdf";
+            const string filename = "SaveData.pdf";
             pdfRenderer.PdfDocument.Save(filename);
             Process.Start(filename);
         }

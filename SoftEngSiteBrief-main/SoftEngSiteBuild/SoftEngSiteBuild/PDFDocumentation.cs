@@ -72,32 +72,17 @@ namespace SoftEngSiteBuild
                 line.Format.Font.Color = Color.FromCmyk(0, 66, 56, 36);
                 try
                 {
+                    //Adds a new row to the table and adds the associated values
                     row1 = table.AddRow();
-                    //line.AddFormattedText("Iterated", TextFormat.Bold);
-                    //line.AddFormattedText(pi.Name, TextFormat.Bold);
-                    //line.AddFormattedText(": ", TextFormat.Bold);
-                    //line.AddFormattedText((string)pi.GetValue(auditFormData), TextFormat.Bold);
                     row1.Cells[0].AddParagraph(pi.Name);
-                    //line.Format.Font.Color = Color.FromCmyk(0, 66, 56, 36);
-                    //line.AddFormattedText(pi.Name, TextFormat.Bold);
                     row1.Cells[1].AddParagraph((string)pi.GetValue(auditFormData));
-                    //row1 = table.AddRow();
                 }
                 catch(ArgumentNullException e)
                 {
-                    //Line used to test if data was broken
-                    //line.AddFormattedText("N/A or Left Blank", TextFormat.Bold);
+                    //Used to catch any errors that may occur when writing to the PDF
                 }
             }
             return document;
         }
-
-
-
-
-        // Console.WriteLine(pi.GetValue(auditFormData));
-        //File.AppendAllText("Save.txt", pi.GetValue(auditFormData) + Environment.NewLine);
-            
-
 }
 }
